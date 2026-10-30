@@ -3,6 +3,7 @@
     python -m returnledger run --scale starter        # generate + validate + audit + evaluate + report
     python -m returnledger run --scale full
     python -m returnledger reproduce --scale starter  # generate twice, compare checksums
+    python -m returnledger robustness --scale full    # several seeds, clean + anomalies, zero unlabelled
     python -m returnledger explain --rma RMA-2026-000123 --data data/starter
     python -m returnledger generate | validate | audit | report | docs
 """
@@ -169,6 +170,45 @@ def cmd_reproduce(args):
     return 0 if identical else 1
 
 
+def cmd_robustness(args):
+    """Generate with several seeds, with and without anomalies, and require zero unlabelled violations."""
+    name, scale = resolve_scale(args.scale)
+    tmp = os.path.join(ROOT, ".tmp", "robustness")
+    rows, ok = [], True
+    for seed in [int(s) for s in args.seeds.split(",")]:
+        for inject in (False, True):
+            shutil.rmtree(tmp, ignore_errors=True)
+            g = generate(seed=seed, scale=scale, inject_anomalies=inject)
+            manifest = storage.export(g, tmp, formats=("csv",))
+            t = storage.load_tables(tmp)
+            gt, labels = storage.load_ground_truth(tmp)
+            summary = Validator(t, gt, tmp, manifest["target_volume"]).run()
+            micro = evaluate(t, run_audit(t), gt, labels)["anomaly_detection"]["micro"]
+            passed = summary["overall_status"] == "PASS" and micro["fp"] == 0 and micro["fn"] == 0
+            ok &= passed
+            rows.append({"seed": seed, "anomalies": inject, "validation": summary["overall_status"],
+                         "violations": summary["totals"]["labelled_violations"] + summary["totals"]["unlabelled_violations"],
+                         "unlabelled": summary["totals"]["unlabelled_violations"], "ground_truth": len(gt),
+                         "tp": micro["tp"], "fp": micro["fp"], "fn": micro["fn"], "passed": passed})
+            print(f"  seed={seed:<9} anomalies={str(inject):<5} validation={summary['overall_status']} "
+                  f"unlabelled={rows[-1]['unlabelled']} tp/fp/fn={micro['tp']}/{micro['fp']}/{micro['fn']}")
+    shutil.rmtree(os.path.join(ROOT, ".tmp"), ignore_errors=True)
+    reports = os.path.join(ROOT, "data", name, "reports")
+    storage.write_json(os.path.join(reports, "robustness.json"), {"scale": scale, "all_passed": ok, "runs": rows})
+    md = ["# Robustness check", "",
+          f"Each seed is generated twice at scale {scale}: clean (no injection) and with labelled anomalies. A run "
+          "passes when validation has zero unlabelled violations and the audit has zero false positives/negatives.",
+          f"**Result: {'ALL PASSED' if ok else 'FAILURES'}**", "",
+          "| Seed | Anomalies injected | Validation | Violations | Unlabelled | Ground truth | TP | FP | FN | Pass |",
+          "|---|---|---|---:|---:|---:|---:|---:|---:|---|"]
+    md += [f"| {r['seed']} | {r['anomalies']} | {r['validation']} | {r['violations']} | {r['unlabelled']} | "
+           f"{r['ground_truth']} | {r['tp']} | {r['fp']} | {r['fn']} | {'yes' if r['passed'] else 'NO'} |" for r in rows]
+    with open(os.path.join(reports, "robustness.md"), "w", encoding="utf-8", newline="\n") as fh:
+        fh.write("\n".join(md) + "\n")
+    print(f"[robustness] {'ALL PASSED' if ok else 'FAILURES'}")
+    return 0 if ok else 1
+
+
 def cmd_explain(args):
     data = data_dir_for(args)
     t = storage.load_tables(data)
@@ -271,6 +311,9 @@ def main(argv=None):
     for name in ("validate", "audit", "report"):
         common(sub.add_parser(name))
     common(sub.add_parser("reproduce", help="generate twice and compare checksums"), data=False)
+    sp = sub.add_parser("robustness", help="validate + audit across several seeds, clean and with anomalies")
+    common(sp, data=False)
+    sp.add_argument("--seeds", default="20261022,1,2,3,42")
     sp = sub.add_parser("explain", help="trace one RMA end to end")
     common(sp)
     sp.add_argument("--rma", required=True)
@@ -280,7 +323,8 @@ def main(argv=None):
     handlers = {"generate": lambda a: cmd_generate(a) and 0, "run": cmd_run,
                 "validate": lambda a: 0 if cmd_validate(a)[0]["overall_status"] == "PASS" else 1,
                 "audit": lambda a: cmd_audit(a) and 0, "report": lambda a: cmd_report(a) and 0,
-                "reproduce": cmd_reproduce, "explain": cmd_explain, "docs": cmd_docs}
+                "reproduce": cmd_reproduce, "robustness": cmd_robustness, "explain": cmd_explain,
+                "docs": cmd_docs}
     return handlers[args.cmd](args)
 
 
