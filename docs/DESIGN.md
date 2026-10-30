@@ -51,7 +51,7 @@ Key modelling decisions:
   decisions are made per line (one line late, another excluded), so `authorization_line` holds the decision,
   the policy version applied, days since delivery, effective window and prior approved quantity. That makes
   every decision explainable from the row alone.
-- **`shipment_line` is a real bridge table.** Customers sometimes split an RMA into two parcels (211 RMAs at full
+- **`shipment_line` is a real bridge table.** Customers sometimes split an RMA into two parcels (223 RMAs at full
   scale), so shipments and return lines are N:M.
 - **Policies are effective-dated master data** (`return_policy`) and selected by the *order date*. This
   demonstrates that a decision depends on the policy in force when the customer bought the item (apparel went
@@ -126,7 +126,7 @@ refund_amount = sum(line_refund) + shipping_refund - return_label_fee
   more than the refund itself.
 - Original shipping is refunded once per order when merchant fault is confirmed.
 - Exchange requests where every inspection passes become a $0 exchange order. If any inspection fails, the
-  request falls back to a refund (141 cases at full scale).
+  request falls back to a refund (120 cases at full scale).
 
 ### Disposition (`policy.decide_disposition`)
 | Condition | Rule |
@@ -195,11 +195,14 @@ Design choices:
    `PRAGMA foreign_key_check` on a database built with every FK declared. All violations it finds are
    labelled anomalies. With anomaly injection disabled, the checks pass with zero violations.
 3. **Independent audit** re-derives eligibility, refund and disposition from raw inputs and finds exactly the
-   200 injected anomalies, with zero false positives. Recorded decisions on all 7,768 clean lines match the
+   200 injected anomalies, with zero false positives. Recorded decisions on all 7,767 clean lines match the
    ground-truth labels.
 4. **Reproducibility**: two runs with the same seed give byte-identical files (`reports/reproducibility.md`). A
    different seed gives different data (unit test).
-5. **Manual spot checks** using `explain` on several RMAs per anomaly type, and on boundary cases.
+5. **Robustness**: `python -m returnledger robustness` regenerates with several seeds, both clean and with
+   anomalies, and requires zero unlabelled violations and zero false positives or negatives (`reports/robustness.md`).
+   This is how the anomaly-cascade bug in section 6 was found.
+6. **Manual spot checks** using `explain` on several RMAs per anomaly type, and on boundary cases.
 
 ## 8. Trade-offs and limitations
 
