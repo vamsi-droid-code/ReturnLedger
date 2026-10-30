@@ -2,6 +2,24 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "0. Web UI - full dataset (opens http://127.0.0.1:8000)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["serve", "--scale", "full"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "0. Web UI - starter dataset",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["serve", "--scale", "starter"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "1. Run pipeline - starter (3k orders, ~5s)",
       "type": "debugpy",
       "request": "launch",

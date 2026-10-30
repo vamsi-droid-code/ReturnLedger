@@ -12,6 +12,8 @@
 - **Writing almost all of the code**: the schema-as-source-of-truth approach, policy engine, generator,
   anomaly injector, exporters, validation suite, audit, metrics, HTML report and CLI.
 - **Documentation**: README, design notes and the generated data dictionary.
+- **The web UI** (`returnledger/webapp.py`, `returnledger/web/`): a read-only explorer added after the core
+  pipeline, so the data can be understood without reading CSVs. It only reads the exported files and reports.
 
 ## Where I relied heavily on it
 - The specific business-rule values (window lengths, fee rates, the disposition matrix and distribution
@@ -38,6 +40,8 @@
   refund arithmetic in the README example was checked by hand: $22.99 + $1.38 = $24.37 and
   $23.99 + $1.44 = $25.43, for a total of $49.80.
 - **Report checked visually** in a browser (screenshot in `docs/images/report_top.png`).
+- **Web UI checked page by page** in a browser. This caught wording bugs in the generated RMA summaries
+  ("asked to store credit", "1 days") and IDs wrapping badly in narrow windows. All were fixed before commit.
 
 ## Honest limitations of the AI-assisted approach
 - The audit and the generator share the same rule functions, so the 100% detection score demonstrates

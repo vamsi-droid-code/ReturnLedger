@@ -66,17 +66,19 @@ Requirements: **Python 3.10+** only, using just the standard library (nothing to
    (**File > Open Folder**).
 2. Install the recommended **Python** extension when prompted.
 3. Open **Run and Debug** (Ctrl+Shift+D), choose a configuration and press **F5**:
+   - `0. Web UI - full dataset`: opens the explorer in your browser (see [Web UI](#web-ui) below)
    - `1. Run pipeline - starter`: generates 3,000 orders, then validates, audits and reports (about 5 s)
    - `2. Run pipeline - full`: the full 30,000 order dataset (about 30 s)
    - `3. Reproducibility check`
    - `4. Explain one RMA end to end`: prompts for an RMA id and prints its whole trace
    - `5. Run tests`
 4. Or use **Terminal > Run Task...** for the same commands, plus `open starter report` / `open full report`.
-5. The Testing panel (beaker icon) also discovers the 28 unit tests.
+5. The Testing panel (beaker icon) also discovers the 32 unit tests.
 
 ### Command line equivalents
 
 ```bash
+python -m returnledger serve --scale full           # web UI at http://127.0.0.1:8000 (Ctrl+C to stop)
 python -m returnledger run --scale starter          # generate + validate + audit + evaluate + report
 python -m returnledger run --scale full             # 30k orders / 5k RMAs / 8k return lines
 python -m returnledger run --scale 0.25 --seed 7    # any scale or seed, same generator
@@ -88,6 +90,24 @@ python -m unittest discover -s tests -v
 ```
 
 `run` exits with code 1 if validation fails, so it can be used in CI.
+
+## Web UI
+
+`python -m returnledger serve --scale full` starts a small local web app (standard library only) and opens it in
+the browser. It is read-only: it shows the exported files and reports, and computes nothing new. Use
+`--scale starter` for the small dataset, `--port` to change the port and `--no-browser` to skip opening a tab.
+
+| Page | What it answers |
+| --- | --- |
+| Overview | What the project does, headline numbers, the return funnel, example RMAs for each planted mistake |
+| Returns explorer | All 5,000 RMAs, searchable and filterable by status or by audit issue |
+| RMA detail | One return told as a story: eligibility per item, parcel, inspection and stock movement, refund maths, full event history, audit flags and the answer key |
+| Exceptions | Every audit finding, with found / false alarm / missed per issue type |
+| Policy rules | Return windows by category and date, eligibility order, refund formula, disposition matrix |
+| Data quality | The 19 validation checks, reproducibility checksums, multi-seed robustness, provenance |
+
+![Overview](docs/images/ui_overview.png)
+![RMA detail: a refund paid twice](docs/images/ui_rma.png)
 
 ### What a trace looks like
 
@@ -168,6 +188,7 @@ returnledger/            Python package (standard library only)
   audit.py               independent exception detector
   evaluate.py            findings and decisions vs ground truth
   metrics.py, report.py  KPIs, HTML report, data dictionary
+  webapp.py, web/        read-only web UI (python -m returnledger serve)
   __main__.py            CLI
 tests/                   unit tests (rules) + end-to-end pipeline tests
 data/starter/            3k-order dataset: csv/, json/, sql/, ground_truth/, reports/, manifest.json

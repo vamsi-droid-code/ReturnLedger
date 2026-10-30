@@ -68,3 +68,14 @@ user prompts. Responses aren't included (optional per the guidelines).
 > use this repo
 >
 > and i need to run in vs code to see what is done
+
+## Prompt 3 (2026-10-31)
+
+> did this project need front end ?
+
+The assistant answered that the brief does not require one (the deliverable is data, rules, validation and
+reports) and offered a small read-only explorer to make the results easier to follow.
+
+## Prompt 4 (2026-10-31)
+
+> okay create a simple frontend to understand clearly

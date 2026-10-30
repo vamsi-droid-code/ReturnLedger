@@ -5,6 +5,7 @@
     python -m returnledger reproduce --scale starter  # generate twice, compare checksums
     python -m returnledger robustness --scale full    # several seeds, clean + anomalies, zero unlabelled
     python -m returnledger explain --rma RMA-2026-000123 --data data/starter
+    python -m returnledger serve --scale full          # web UI at http://127.0.0.1:8000
     python -m returnledger generate | validate | audit | report | docs
 """
 import argparse
@@ -280,6 +281,16 @@ def cmd_explain(args):
     return 0
 
 
+def cmd_serve(args):
+    from .webapp import serve
+    data = data_dir_for(args)
+    if not os.path.exists(os.path.join(data, "reports", "validation_summary.json")):
+        print(f"[serve] {os.path.relpath(data, ROOT)} has no reports yet. Run: python -m returnledger run --scale {args.scale}")
+        return 1
+    serve(data, port=args.port, open_browser=not args.no_browser)
+    return 0
+
+
 def cmd_docs(args):
     path = os.path.join(ROOT, "docs", "DATA_DICTIONARY.md")
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -317,6 +328,10 @@ def main(argv=None):
     sp = sub.add_parser("explain", help="trace one RMA end to end")
     common(sp)
     sp.add_argument("--rma", required=True)
+    sp = sub.add_parser("serve", help="open the web UI for a dataset")
+    common(sp)
+    sp.add_argument("--port", type=int, default=8000)
+    sp.add_argument("--no-browser", action="store_true")
     sub.add_parser("docs", help="regenerate docs/DATA_DICTIONARY.md and docs/schema.sql")
 
     args = p.parse_args(argv)
@@ -324,7 +339,7 @@ def main(argv=None):
                 "validate": lambda a: 0 if cmd_validate(a)[0]["overall_status"] == "PASS" else 1,
                 "audit": lambda a: cmd_audit(a) and 0, "report": lambda a: cmd_report(a) and 0,
                 "reproduce": cmd_reproduce, "robustness": cmd_robustness, "explain": cmd_explain,
-                "docs": cmd_docs}
+                "serve": cmd_serve, "docs": cmd_docs}
     return handlers[args.cmd](args)
 
 
