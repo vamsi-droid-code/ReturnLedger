@@ -60,6 +60,15 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(types, {"QTY_EXCEEDS_PURCHASED", "REFUND_EXCEEDS_PAID", "RESTOCK_BEFORE_INSPECTION",
                                  "LATE_APPROVED_WITHOUT_OVERRIDE", "DUPLICATE_REFUND"})
 
+    def test_clean_baseline_has_zero_violations(self):
+        gen = generate(scale=SCALE, inject_anomalies=False)
+        out = os.path.join(self.tmp, "clean")
+        manifest = storage.export(gen, out, formats=("csv",))
+        tables = storage.load_tables(out)
+        summary = Validator(tables, [], out, manifest["target_volume"]).run()
+        self.assertEqual([c["check"] for c in summary["checks"] if c["violations"]], [])
+        self.assertEqual(run_audit(tables), [])
+
     def test_same_seed_same_data_and_new_seed_differs(self):
         again = generate(scale=SCALE)
         self.assertEqual(again.t, self.gen.t)

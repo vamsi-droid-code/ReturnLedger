@@ -83,7 +83,7 @@ def minutes(rng, lo, hi):
 
 
 class Generator:
-    def __init__(self, seed=C.DEFAULT_SEED, scale=1.0):
+    def __init__(self, seed=C.DEFAULT_SEED, scale=1.0, inject_anomalies=True):
         self.seed = seed
         self.scale = scale
         v = C.FULL_VOLUME
@@ -91,7 +91,8 @@ class Generator:
         self.n_orders = max(100, round(v["orders"] * scale))
         self.n_requests = max(20, round(v["return_requests"] * scale))
         self.n_lines = max(self.n_requests, round(v["return_lines"] * scale))
-        self.anomaly_counts = {k: max(C.ANOMALY_MIN, round(n * scale)) for k, n in C.ANOMALY_COUNTS_FULL.items()}
+        self.anomaly_counts = {k: (max(C.ANOMALY_MIN, round(n * scale)) if inject_anomalies else 0)
+                               for k, n in C.ANOMALY_COUNTS_FULL.items()}
         self.t = {tab.name: [] for tab in TABLES}
         self.events = []
         self.counters = {}
@@ -529,8 +530,10 @@ class Generator:
         shipments = []
         for group in groups:
             carrier = "STORE_DROPOFF" if store else wchoice(rng, C.CARRIERS)
-            sid = self.next_id("RTS")
             label_at = auth["decided_at"] + minutes(rng, 1, 30)
+            if label_at > C.AS_OF:
+                return
+            sid = self.next_id("RTS")
             ship = {"shipment_id": sid, "rma_id": rma_id, "authorization_id": auth["authorization_id"],
                     "carrier": carrier,
                     "tracking_number": f"{TRACKING_PREFIX[carrier]}{self.counters['RTS']:010d}{rng.randrange(100):02d}",
@@ -670,8 +673,10 @@ class Generator:
             shipping_already_refunded=order["order_id"] in self.shipping_refunded, refund_method=method,
             return_channel=req["return_channel"])
         if amount == 0:
-            self.event("RETURN_REQUEST", rma_id, "INSPECTED", "CLOSED_NO_REFUND", inspected_at + minutes(rng, 10, 120),
-                       "SYSTEM", reason="NOTHING_REFUNDABLE")
+            closed_at = inspected_at + minutes(rng, 10, 120)
+            if closed_at <= C.AS_OF:
+                self.event("RETURN_REQUEST", rma_id, "INSPECTED", "CLOSED_NO_REFUND", closed_at, "SYSTEM",
+                           reason="NOTHING_REFUNDABLE")
             return
         requested_at = inspected_at + minutes(rng, 10, 360)
         if requested_at > C.AS_OF:
@@ -687,8 +692,8 @@ class Generator:
             self.shipping_refunded.add(order["order_id"])
         if paid:
             self.event("RETURN_REQUEST", rma_id, "INSPECTED", "REFUNDED", processed_at, "PAYMENT_GATEWAY", ref["refund_id"])
-            if rng.random() < BLOCKED_RETRY_SHARE:
-                retry_at = requested_at + minutes(rng, 1, 30)
+            retry_at = requested_at + minutes(rng, 1, 30)
+            if rng.random() < BLOCKED_RETRY_SHARE and retry_at <= C.AS_OF:
                 self.make_refund(rma_id, key, 2, method, retry_at, retry_at, lines_amount, ship_refund, label_fee,
                                  amount, "BLOCKED_DUPLICATE", calcs, blocked="IDEMPOTENCY_KEY_ALREADY_USED")
 
@@ -787,5 +792,5 @@ class Generator:
             self.t[tab.name] = [{c: r[c] for c in tab.columns} for r in self.t[tab.name]]
 
 
-def generate(seed=C.DEFAULT_SEED, scale=1.0):
-    return Generator(seed, scale).run()
+def generate(seed=C.DEFAULT_SEED, scale=1.0, inject_anomalies=True):
+    return Generator(seed, scale, inject_anomalies).run()
