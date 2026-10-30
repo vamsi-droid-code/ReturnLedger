@@ -1,0 +1,58 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Run pipeline - starter (3k orders, ~5s)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["run", "--scale", "starter"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Run pipeline - full (30k orders, ~30s)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["run", "--scale", "full"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Reproducibility check (generate twice, compare checksums)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["reproduce", "--scale", "starter"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Explain one RMA end to end",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "returnledger",
+      "args": ["explain", "--scale", "starter", "--rma", "${input:rmaId}"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Run tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": ["discover", "-s", "tests", "-v"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "rmaId",
+      "type": "promptString",
+      "description": "RMA id to trace (see data/starter/ground_truth/ground_truth_anomalies.csv for interesting ones)",
+      "default": "RMA-2026-000100"
+    }
+  ]
+}
