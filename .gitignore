@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.tmp/
+build/
+
+# Full-scale heavy exports are regenerated with one command (see README).
+# The full-scale CSVs, ground truth, manifest and reports ARE committed.
+data/full/json/
+data/full/sql/
+data/full/returnledger.db
+data/starter/returnledger.db
