@@ -1,0 +1,285 @@
+{
+  "project": "ReturnLedger",
+  "generator": "returnledger.generator",
+  "generator_version": "1.0.0",
+  "command": "python -m returnledger generate --scale starter --seed 20261022",
+  "seed": 20261022,
+  "scale": 0.1,
+  "as_of": "2026-10-25T23:59:59",
+  "order_date_range": [
+    "2026-01-01",
+    "2026-09-30"
+  ],
+  "target_volume": {
+    "orders": 3000,
+    "return_requests": 500,
+    "return_lines": 800
+  },
+  "injected_anomalies": {
+    "QTY_EXCEEDS_PURCHASED": 5,
+    "REFUND_EXCEEDS_PAID": 5,
+    "RESTOCK_BEFORE_INSPECTION": 5,
+    "LATE_APPROVED_WITHOUT_OVERRIDE": 5,
+    "DUPLICATE_REFUND": 5
+  },
+  "row_counts": {
+    "return_policy": 11,
+    "customer": 1200,
+    "product": 1500,
+    "orders": 3106,
+    "order_line": 6050,
+    "return_request": 500,
+    "return_line": 800,
+    "return_authorization": 499,
+    "authorization_line": 798,
+    "return_shipment": 467,
+    "shipment_line": 671,
+    "inspection": 626,
+    "refund": 313,
+    "refund_line": 472,
+    "inventory_disposition": 625,
+    "inventory_movement": 625,
+    "status_event": 13973
+  },
+  "provenance": {
+    "external_data_used": false,
+    "statement": "All records are synthetic, produced by a seeded pseudo-random generator. No real customers, orders or payment data were used. Names are random combinations of common first/last names; emails use the reserved example.com domain; tax rates are illustrative. Public material informed the schema only (general retail returns practice).",
+    "license": "Synthetic data and code released under the MIT License (see LICENSE)."
+  },
+  "files": [
+    {
+      "path": "csv/return_policy.csv",
+      "rows": 11,
+      "bytes": 835,
+      "sha256": "53978a1dea9bba31bc29275d7b6759af949c0a95f47e3ab20bc7ffc8ca40895e"
+    },
+    {
+      "path": "csv/customer.csv",
+      "rows": 1200,
+      "bytes": 92844,
+      "sha256": "0784d14f5686d0c301ba47714652314d9ad299dff15cecaaf9e3b7334b8c8755"
+    },
+    {
+      "path": "csv/product.csv",
+      "rows": 1500,
+      "bytes": 81426,
+      "sha256": "aed7d5af6ea951aa5b55568dce618cf9085c3e3fb70b399c24e2c9622eb8b5e0"
+    },
+    {
+      "path": "csv/orders.csv",
+      "rows": 3106,
+      "bytes": 501476,
+      "sha256": "636589f9bb8cedaf4afedad22956e82a58793f92451928b82f58904bd4f9d51c"
+    },
+    {
+      "path": "csv/order_line.csv",
+      "rows": 6050,
+      "bytes": 597142,
+      "sha256": "fd1acacac111eef21a79aa63617f0a5334b0493b265aa5a15ed8ac1ca2eef100"
+    },
+    {
+      "path": "csv/return_request.csv",
+      "rows": 500,
+      "bytes": 47460,
+      "sha256": "01e8e5fd7a8ac9dc4402ac1a6137e0095cf2d644035bfc5328bd6c05bdc65e30"
+    },
+    {
+      "path": "csv/return_line.csv",
+      "rows": 800,
+      "bytes": 73540,
+      "sha256": "eb555bd8f5b46128b9352b09bf721f3c4644bfc98e1c11c7be1ca3b1ff06ae55"
+    },
+    {
+      "path": "csv/return_authorization.csv",
+      "rows": 499,
+      "bytes": 47806,
+      "sha256": "04d3a4c05f75722c1ef1155292b899993cf4a6ba34f959c9200e8df5ee532b0f"
+    },
+    {
+      "path": "csv/authorization_line.csv",
+      "rows": 798,
+      "bytes": 93017,
+      "sha256": "e17001f26f0283d54a61afac23e92ee3d75b4c18210d8837d17949a8b555e523"
+    },
+    {
+      "path": "csv/return_shipment.csv",
+      "rows": 467,
+      "bytes": 65972,
+      "sha256": "424b9e9802b04371ff8bdaca4e05f52b955b4880991615b7d6fe79f9381d6a08"
+    },
+    {
+      "path": "csv/shipment_line.csv",
+      "rows": 671,
+      "bytes": 28221,
+      "sha256": "53efb8ca124f132becd050168cdc4219c53130dab10c85cfe1ba58c15ff7737f"
+    },
+    {
+      "path": "csv/inspection.csv",
+      "rows": 626,
+      "bytes": 68177,
+      "sha256": "f94bfb0bc50a32c9207249be3c605c92737085e2b7db0d9b66785df5010269d0"
+    },
+    {
+      "path": "csv/refund.csv",
+      "rows": 313,
+      "bytes": 47972,
+      "sha256": "c485279979fb302fca568f9368348e1f86040511325a33e8be6adcb70b980ea1"
+    },
+    {
+      "path": "csv/refund_line.csv",
+      "rows": 472,
+      "bytes": 63862,
+      "sha256": "9bfe52b7a98b57019763c8ada3c5c73195212e56166d2efed09e110aed33fd50"
+    },
+    {
+      "path": "csv/inventory_disposition.csv",
+      "rows": 625,
+      "bytes": 66429,
+      "sha256": "52aa3d3c0f5dd2fdda219117bedef9aaf33a5e0fc95328af6059149b7cc58e44"
+    },
+    {
+      "path": "csv/inventory_movement.csv",
+      "rows": 625,
+      "bytes": 67075,
+      "sha256": "b0bf61809ef56d804df9d7da7a6719dec6a7eaae924599a3eee85b4a462e2280"
+    },
+    {
+      "path": "csv/status_event.csv",
+      "rows": 13973,
+      "bytes": 1286782,
+      "sha256": "9a4a3e364c1a3da56f783b8281bae826f5e2d3d52f74575e1d45f59cdd67e9b4"
+    },
+    {
+      "path": "json/return_policy.json",
+      "rows": 11,
+      "bytes": 2846,
+      "sha256": "1f96971cd2c50bb29994cbc9bdea15c3b77dcd5a940b307420ee814acdf37f4f"
+    },
+    {
+      "path": "json/customer.json",
+      "rows": 1200,
+      "bytes": 246363,
+      "sha256": "c3942e6be57334e3d36ca0b91d253f1f7b27fd55a846635bba780108079c1fbb"
+    },
+    {
+      "path": "json/product.json",
+      "rows": 1500,
+      "bytes": 193696,
+      "sha256": "de50560b43f90cd30bcaff8d911440a502318e206fbd90e849e4db65d64d4cf3"
+    },
+    {
+      "path": "json/orders.json",
+      "rows": 3106,
+      "bytes": 1562891,
+      "sha256": "ec92882e7f59df9d40b64d749efa8530ef7ca123cfbd19966eb40bb332bf5bbd"
+    },
+    {
+      "path": "json/order_line.json",
+      "rows": 6050,
+      "bytes": 1835512,
+      "sha256": "bdcd6b8e76426dce26faf90b4067712a4611d0c2b0f3fe8bbf00e33224914182"
+    },
+    {
+      "path": "json/return_request.json",
+      "rows": 500,
+      "bytes": 146249,
+      "sha256": "0d607ab7b36919bf097dc75d4adf174d566b2158eab8a561b13ada018fb0b453"
+    },
+    {
+      "path": "json/return_line.json",
+      "rows": 800,
+      "bytes": 169463,
+      "sha256": "804611a2e0ff02922e1f69eca2bd8bea656d1ddb7914990455821022894e8b66"
+    },
+    {
+      "path": "json/return_authorization.json",
+      "rows": 499,
+      "bytes": 120181,
+      "sha256": "e71a3634c96731f2e4154a9f84561f59bf64aa1b9eda5e5f1106d46745f722d3"
+    },
+    {
+      "path": "json/authorization_line.json",
+      "rows": 798,
+      "bytes": 286749,
+      "sha256": "8ecb5a25048c701ad5aba781cf1f8b0403ff500740d6a883760f133a2ddbe12d"
+    },
+    {
+      "path": "json/return_shipment.json",
+      "rows": 467,
+      "bytes": 154681,
+      "sha256": "5598fb3e5d51a04abfce34b8abe9b9adb0a68420bc16a7e5b92aa265cc52d03a"
+    },
+    {
+      "path": "json/shipment_line.json",
+      "rows": 671,
+      "bytes": 66432,
+      "sha256": "c3734145c390eae30d36152c13293d429a22f56e1ac527b25f7de982890dfea9"
+    },
+    {
+      "path": "json/inspection.json",
+      "rows": 626,
+      "bytes": 185109,
+      "sha256": "1dbf5044e9c2ac16843844b32d147de07b707e0175ecd974ff84ef78f5d109ca"
+    },
+    {
+      "path": "json/refund.json",
+      "rows": 313,
+      "bytes": 129521,
+      "sha256": "6b27665dfc5fdecb6507bab59a2fa617bea38c3ba72e85475c8efb28d430a932"
+    },
+    {
+      "path": "json/refund_line.json",
+      "rows": 472,
+      "bytes": 173065,
+      "sha256": "5e64232cbb808fb9a031ff598abf7745b1a0054b3b05120be82de1b270bc527d"
+    },
+    {
+      "path": "json/inventory_disposition.json",
+      "rows": 625,
+      "bytes": 150096,
+      "sha256": "b3d23f3ab8e3b1135259a58dd893b0e4834224f8e6bf818876c72b444cfa0748"
+    },
+    {
+      "path": "json/inventory_movement.json",
+      "rows": 625,
+      "bytes": 169344,
+      "sha256": "3c0f1bc73f945c3487f7168570de0d60ecd70f5d0728a80bd131308d91c32da0"
+    },
+    {
+      "path": "json/status_event.json",
+      "rows": 13973,
+      "bytes": 3438723,
+      "sha256": "57033ae13bc9ae65691e3eba8e1a8b2da69003bf1dba8be98bcd774f94630f37"
+    },
+    {
+      "path": "sql/schema.sql",
+      "rows": 17,
+      "bytes": 13704,
+      "sha256": "0acd4fbd1eab1764e8cd5d2ab6c09debacd91bd319466e739292e08a3b04bcdb"
+    },
+    {
+      "path": "sql/seed.sql",
+      "rows": 32236,
+      "bytes": 4192484,
+      "sha256": "0a044263a0eb4374415bd81ef81147d69f1f47f086a429b20fd70cfd0e8329f9"
+    },
+    {
+      "path": "ground_truth/ground_truth_anomalies.csv",
+      "rows": 25,
+      "bytes": 5734,
+      "sha256": "a29d84402d2f2e2e6ed8c58d4b4d48936675ecb6f6f56efeac4e411ef1bb7f55"
+    },
+    {
+      "path": "ground_truth/ground_truth_anomalies.json",
+      "rows": 25,
+      "bytes": 10805,
+      "sha256": "356609c7d4529539bff5e89e7fcf90dde8f250535da65c7decc650f10f6023ce"
+    },
+    {
+      "path": "ground_truth/ground_truth_labels.csv",
+      "rows": 800,
+      "bytes": 76353,
+      "sha256": "96b65cf156c0318fdba52f0b447849ea814f5fa5005d1eb2513d9705e646c41b"
+    }
+  ]
+}

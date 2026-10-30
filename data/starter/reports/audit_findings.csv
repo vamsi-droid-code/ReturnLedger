@@ -1,0 +1,26 @@
+finding_id,issue_type,severity,entity_type,entity_id,rma_id,detail,recommended_action
+F-00001,LATE_APPROVED_WITHOUT_OVERRIDE,MEDIUM,authorization_line,RAL-RMA-2026-000041-01,RMA-2026-000041,"35 days > window 30, no override",Hold refund; require ops-manager override or reject the line
+F-00002,QTY_EXCEEDS_PURCHASED,HIGH,authorization_line,RAL-RMA-2026-000150-03,RMA-2026-000150,approved 3 > purchased 2 - prior 0,Cap authorization at purchased qty; investigate phantom inventory
+F-00003,QTY_EXCEEDS_PURCHASED,HIGH,authorization_line,RAL-RMA-2026-000176-02,RMA-2026-000176,approved 2 > purchased 1 - prior 0,Cap authorization at purchased qty; investigate phantom inventory
+F-00004,LATE_APPROVED_WITHOUT_OVERRIDE,MEDIUM,authorization_line,RAL-RMA-2026-000299-01,RMA-2026-000299,"61 days > window 60, no override",Hold refund; require ops-manager override or reject the line
+F-00005,LATE_APPROVED_WITHOUT_OVERRIDE,MEDIUM,authorization_line,RAL-RMA-2026-000304-01,RMA-2026-000304,"70 days > window 60, no override",Hold refund; require ops-manager override or reject the line
+F-00006,QTY_EXCEEDS_PURCHASED,HIGH,authorization_line,RAL-RMA-2026-000370-01,RMA-2026-000370,approved 2 > purchased 1 - prior 0,Cap authorization at purchased qty; investigate phantom inventory
+F-00007,LATE_APPROVED_WITHOUT_OVERRIDE,MEDIUM,authorization_line,RAL-RMA-2026-000380-01,RMA-2026-000380,"12 days > window 7, no override",Hold refund; require ops-manager override or reject the line
+F-00008,LATE_APPROVED_WITHOUT_OVERRIDE,MEDIUM,authorization_line,RAL-RMA-2026-000396-02,RMA-2026-000396,"61 days > window 60, no override",Hold refund; require ops-manager override or reject the line
+F-00009,QTY_EXCEEDS_PURCHASED,HIGH,authorization_line,RAL-RMA-2026-000442-01,RMA-2026-000442,approved 2 > purchased 1 - prior 0,Cap authorization at purchased qty; investigate phantom inventory
+F-00010,QTY_EXCEEDS_PURCHASED,HIGH,authorization_line,RAL-RMA-2026-000492-01,RMA-2026-000492,approved 2 > purchased 1 - prior 0,Cap authorization at purchased qty; investigate phantom inventory
+F-00011,REFUND_EXCEEDS_PAID,HIGH,refund,REF-2026-000019,RMA-2026-000023,refund 73.03 vs policy 42.92; a line exceeds amount paid,Reverse excess; refund cannot exceed net paid + tax
+F-00012,REFUND_EXCEEDS_PAID,HIGH,refund,REF-2026-000051,RMA-2026-000066,refund 234.67 vs policy 219.43; a line exceeds amount paid,Reverse excess; refund cannot exceed net paid + tax
+F-00013,DUPLICATE_REFUND,HIGH,refund,REF-2026-000310,RMA-2026-000107,second payout 6.52 after REF-2026-000075,Block/claw back the second payout; enforce idempotency per RMA
+F-00014,REFUND_EXCEEDS_PAID,HIGH,refund,REF-2026-000087,RMA-2026-000124,refund 80.17 vs policy 74.70; a line exceeds amount paid,Reverse excess; refund cannot exceed net paid + tax
+F-00015,REFUND_EXCEEDS_PAID,HIGH,refund,REF-2026-000143,RMA-2026-000216,refund 88.46 vs policy 28.31; a line exceeds amount paid,Reverse excess; refund cannot exceed net paid + tax
+F-00016,DUPLICATE_REFUND,HIGH,refund,REF-2026-000309,RMA-2026-000218,second payout 139.59 after REF-2026-000145,Block/claw back the second payout; enforce idempotency per RMA
+F-00017,DUPLICATE_REFUND,HIGH,refund,REF-2026-000313,RMA-2026-000316,second payout 167.99 after REF-2026-000203,Block/claw back the second payout; enforce idempotency per RMA
+F-00018,DUPLICATE_REFUND,HIGH,refund,REF-2026-000311,RMA-2026-000328,second payout 397.15 after REF-2026-000209,Block/claw back the second payout; enforce idempotency per RMA
+F-00019,REFUND_EXCEEDS_PAID,HIGH,refund,REF-2026-000218,RMA-2026-000342,refund 58.36 vs policy 44.47; a line exceeds amount paid,Reverse excess; refund cannot exceed net paid + tax
+F-00020,DUPLICATE_REFUND,HIGH,refund,REF-2026-000312,RMA-2026-000473,second payout 2143.76 after REF-2026-000301,Block/claw back the second payout; enforce idempotency per RMA
+F-00021,RESTOCK_BEFORE_INSPECTION,HIGH,inventory_disposition,DISP-2026-000088,RMA-2026-000065,decided 2026-03-08 09:02:00 before inspection 2026-03-09 07:58:00,Pull units from sellable stock and inspect
+F-00022,RESTOCK_BEFORE_INSPECTION,HIGH,inventory_disposition,DISP-2026-000160,RMA-2026-000125,decided 2026-04-16 07:54:00 before inspection 2026-04-16 11:19:00,Pull units from sellable stock and inspect
+F-00023,RESTOCK_BEFORE_INSPECTION,HIGH,inventory_disposition,DISP-2026-000307,RMA-2026-000246,decided 2026-06-27 03:30:00 before inspection 2026-06-27 13:45:00,Pull units from sellable stock and inspect
+F-00024,RESTOCK_BEFORE_INSPECTION,HIGH,inventory_disposition,DISP-2026-000326,RMA-2026-000260,decided 2026-07-08 03:42:00 before inspection 2026-07-08 05:58:00,Pull units from sellable stock and inspect
+F-00025,RESTOCK_BEFORE_INSPECTION,HIGH,inventory_disposition,DISP-2026-000443,RMA-2026-000353,decided 2026-08-20 11:25:00 before inspection 2026-08-21 06:31:00,Pull units from sellable stock and inspect

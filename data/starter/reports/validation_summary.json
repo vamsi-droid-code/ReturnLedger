@@ -1,0 +1,252 @@
+{
+  "overall_status": "PASS",
+  "checks": [
+    {
+      "category": "structure",
+      "check": "Primary keys unique",
+      "rule": "every table PK unique",
+      "rows_checked": 32236,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "structure",
+      "check": "Required fields present",
+      "rule": "NOT NULL per data dictionary",
+      "rows_checked": 32236,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "structure",
+      "check": "Enum values allowed",
+      "rule": "values in allowed lists",
+      "rows_checked": 32236,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "structure",
+      "check": "ID / format patterns",
+      "rule": "ORD-2026-000001, RMA-, RMAL-<rma>-01, RTS-, REF-...",
+      "rows_checked": 32236,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "structure",
+      "check": "Unique columns",
+      "rule": "email, tracking_number, rma_id on authorization ...",
+      "rows_checked": 32236,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "integrity",
+      "check": "Foreign keys resolve (incl. composite + polymorphic)",
+      "rule": "",
+      "rows_checked": 48058,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "integrity",
+      "check": "SQLite PRAGMA foreign_key_check",
+      "rule": "database-enforced FKs",
+      "rows_checked": 13973,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "integrity",
+      "check": "Cross-entity joins consistent",
+      "rule": "customer/order/line/sku/RMA agree along every join path",
+      "rows_checked": 14613,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "volume",
+      "check": "Target volumes met exactly",
+      "rule": "{'orders': 3000, 'return_requests': 500, 'return_lines': 800}",
+      "rows_checked": 3,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "dates",
+      "check": "Date ordering across the lifecycle",
+      "rule": "placed<=shipped<=delivered<=requested<=decided<=label<=shipped<=received<=inspected<=refund/disposition",
+      "rows_checked": 26650,
+      "violations": 10,
+      "labelled": 10,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "DISP-2026-000088: disposition before inspection",
+        "DISP-2026-000160: disposition before inspection",
+        "DISP-2026-000307: disposition before inspection"
+      ]
+    },
+    {
+      "category": "arithmetic",
+      "check": "Totals, tax, discounts and refund formulas reconcile",
+      "rule": "derived values recomputed from source rows",
+      "rows_checked": 11065,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "arithmetic",
+      "check": "Refunds <= amount paid (line and order)",
+      "rule": "sum(refunds) <= net + tax",
+      "rows_checked": 302,
+      "violations": 10,
+      "labelled": 10,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "REF-2026-000019: cumulative refund exceeds amount paid",
+        "REF-2026-000051: cumulative refund exceeds amount paid",
+        "REF-2026-000087: cumulative refund exceeds amount paid"
+      ]
+    },
+    {
+      "category": "quantity",
+      "check": "Quantities flow purchased >= approved >= shipped >= received = disposed",
+      "rule": "disposition controls inventory movement",
+      "rows_checked": 2720,
+      "violations": 5,
+      "labelled": 5,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "RAL-RMA-2026-000150-03: approved 3 > purchased 2",
+        "RAL-RMA-2026-000176-02: approved 2 > purchased 1",
+        "RAL-RMA-2026-000370-01: approved 2 > purchased 1"
+      ]
+    },
+    {
+      "category": "lifecycle",
+      "check": "Lifecycle transitions legal and statuses derived from history",
+      "rule": "append-only status_event; current_status = last event",
+      "rows_checked": 18859,
+      "violations": 0,
+      "labelled": 0,
+      "unlabelled": 0,
+      "status": "PASS",
+      "examples": []
+    },
+    {
+      "category": "duplicates",
+      "check": "Duplicate payouts blocked; no duplicate lines or events",
+      "rule": "<= 1 payout per RMA; idempotency keys unique",
+      "rows_checked": 324,
+      "violations": 5,
+      "labelled": 5,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "REF-2026-000310: extra payout for RMA-2026-000107",
+        "REF-2026-000309: extra payout for RMA-2026-000218",
+        "REF-2026-000313: extra payout for RMA-2026-000316"
+      ]
+    },
+    {
+      "category": "business_rules",
+      "check": "Eligibility decisions follow policy",
+      "rule": "independent re-derivation by audit.py",
+      "rows_checked": 798,
+      "violations": 10,
+      "labelled": 10,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "RAL-RMA-2026-000041-01: 35 days > window 30, no override",
+        "RAL-RMA-2026-000299-01: 61 days > window 60, no override",
+        "RAL-RMA-2026-000304-01: 70 days > window 60, no override"
+      ]
+    },
+    {
+      "category": "business_rules",
+      "check": "Refund math follows paid price, discounts, tax and fees",
+      "rule": "independent re-derivation by audit.py",
+      "rows_checked": 313,
+      "violations": 5,
+      "labelled": 5,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "REF-2026-000019: refund 73.03 vs policy 42.92; a line exceeds amount paid",
+        "REF-2026-000051: refund 234.67 vs policy 219.43; a line exceeds amount paid",
+        "REF-2026-000087: refund 80.17 vs policy 74.70; a line exceeds amount paid"
+      ]
+    },
+    {
+      "category": "business_rules",
+      "check": "Duplicate payouts detected",
+      "rule": "independent re-derivation by audit.py",
+      "rows_checked": 313,
+      "violations": 5,
+      "labelled": 5,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "REF-2026-000310: second payout 6.52 after REF-2026-000075",
+        "REF-2026-000309: second payout 139.59 after REF-2026-000145",
+        "REF-2026-000313: second payout 167.99 after REF-2026-000203"
+      ]
+    },
+    {
+      "category": "business_rules",
+      "check": "Disposition follows inspection and matrix",
+      "rule": "independent re-derivation by audit.py",
+      "rows_checked": 625,
+      "violations": 5,
+      "labelled": 5,
+      "unlabelled": 0,
+      "status": "PASS_WITH_LABELLED_EXCEPTIONS",
+      "examples": [
+        "DISP-2026-000088: decided 2026-03-08 09:02:00 before inspection 2026-03-09 07:58:00",
+        "DISP-2026-000160: decided 2026-04-16 07:54:00 before inspection 2026-04-16 11:19:00",
+        "DISP-2026-000307: decided 2026-06-27 03:30:00 before inspection 2026-06-27 13:45:00"
+      ]
+    }
+  ],
+  "totals": {
+    "checks": 19,
+    "passed": 19,
+    "labelled_violations": 55,
+    "unlabelled_violations": 0
+  }
+}

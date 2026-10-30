@@ -1,0 +1,12 @@
+policy_id,category,version,effective_from,effective_to,return_window_days,returnable,opened_returnable,restocking_fee_rate,merchant_fault_override
+POL-APPAREL-V1,APPAREL,1,2026-01-01,2026-06-30,60,true,true,0.0000,true
+POL-APPAREL-V2,APPAREL,2,2026-07-01,,45,true,true,0.0000,true
+POL-BEAUTY-V1,BEAUTY,1,2026-01-01,,30,true,false,0.0000,true
+POL-BOOKS-V1,BOOKS,1,2026-01-01,,30,true,true,0.0000,true
+POL-ELECTRONICS-V1,ELECTRONICS,1,2026-01-01,,30,true,true,0.1500,true
+POL-GIFT_CARD-V1,GIFT_CARD,1,2026-01-01,,0,false,false,0.0000,false
+POL-GROCERY-V1,GROCERY,1,2026-01-01,,7,false,false,0.0000,true
+POL-HOME-V1,HOME,1,2026-01-01,,30,true,true,0.0000,true
+POL-JEWELRY-V1,JEWELRY,1,2026-01-01,,14,true,true,0.0000,true
+POL-SPORTS-V1,SPORTS,1,2026-01-01,,30,true,true,0.1000,true
+POL-TOYS-V1,TOYS,1,2026-01-01,,30,true,true,0.0000,true

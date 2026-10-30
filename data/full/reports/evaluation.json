@@ -1,0 +1,85 @@
+{
+  "anomaly_detection": {
+    "micro": {
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "per_issue_type": {
+      "DUPLICATE_REFUND": {
+        "ground_truth": 40,
+        "detected": 40,
+        "tp": 40,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "LATE_APPROVED_WITHOUT_OVERRIDE": {
+        "ground_truth": 40,
+        "detected": 40,
+        "tp": 40,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "QTY_EXCEEDS_PURCHASED": {
+        "ground_truth": 40,
+        "detected": 40,
+        "tp": 40,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "REFUND_EXCEEDS_PAID": {
+        "ground_truth": 40,
+        "detected": 40,
+        "tp": 40,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "RESTOCK_BEFORE_INSPECTION": {
+        "ground_truth": 40,
+        "detected": 40,
+        "tp": 40,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "decision_conformance": {
+    "clean_lines": 7767,
+    "clean_match_rate": 1.0,
+    "anomalous_lines": 220,
+    "anomalous_lines_deviating": 80
+  },
+  "disposition_conformance": {
+    "lines": 5972,
+    "match_rate": 1.0
+  },
+  "refund_conformance": {
+    "lines": 4465,
+    "match_rate": 1.0
+  },
+  "financial_impact_usd": {
+    "leakage_from_injected_anomalies": 9608.7,
+    "duplicate_payouts": 7495.01,
+    "over_refunds": 2113.69,
+    "duplicate_attempts_blocked": 127,
+    "amount_protected_by_idempotency": 21379.75
+  }
+}

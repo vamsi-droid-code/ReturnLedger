@@ -1,0 +1,126 @@
+{
+  "scale": 1.0,
+  "all_passed": true,
+  "runs": [
+    {
+      "seed": 20261022,
+      "anomalies": false,
+      "validation": "PASS",
+      "violations": 0,
+      "unlabelled": 0,
+      "ground_truth": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 20261022,
+      "anomalies": true,
+      "validation": "PASS",
+      "violations": 438,
+      "unlabelled": 0,
+      "ground_truth": 200,
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "anomalies": false,
+      "validation": "PASS",
+      "violations": 0,
+      "unlabelled": 0,
+      "ground_truth": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 1,
+      "anomalies": true,
+      "validation": "PASS",
+      "violations": 438,
+      "unlabelled": 0,
+      "ground_truth": 200,
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "anomalies": false,
+      "validation": "PASS",
+      "violations": 0,
+      "unlabelled": 0,
+      "ground_truth": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 2,
+      "anomalies": true,
+      "validation": "PASS",
+      "violations": 436,
+      "unlabelled": 0,
+      "ground_truth": 200,
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "anomalies": false,
+      "validation": "PASS",
+      "violations": 0,
+      "unlabelled": 0,
+      "ground_truth": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 3,
+      "anomalies": true,
+      "validation": "PASS",
+      "violations": 439,
+      "unlabelled": 0,
+      "ground_truth": 200,
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 42,
+      "anomalies": false,
+      "validation": "PASS",
+      "violations": 0,
+      "unlabelled": 0,
+      "ground_truth": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    },
+    {
+      "seed": 42,
+      "anomalies": true,
+      "validation": "PASS",
+      "violations": 437,
+      "unlabelled": 0,
+      "ground_truth": 200,
+      "tp": 200,
+      "fp": 0,
+      "fn": 0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1501 @@
+sku,product_name,category,list_price,unit_cost
+SKU-000001,Lumen Classic Cookware Set,HOME,10.99,5.00
+SKU-000002,Summit Signature Camera,ELECTRONICS,883.99,639.18
+SKU-000003,Lumen Classic Jacket,APPAREL,25.99,13.99
+SKU-000004,Orbit Pro Keyboard,ELECTRONICS,201.99,122.56
+SKU-000005,Northwind Eco Bike Helmet,SPORTS,10.99,5.33
+SKU-000006,Willow Premium Comic Volume,BOOKS,20.99,12.74
+SKU-000007,Vertex Premium Textbook,BOOKS,7.99,5.56
+SKU-000008,Contoso Urban Vacuum,HOME,62.99,33.74
+SKU-000009,Northwind Signature Camera,ELECTRONICS,22.99,13.81
+SKU-000010,Fabrikam Essential Lamp,HOME,120.99,54.98
+SKU-000011,Harbor Urban Sneakers,APPAREL,74.99,33.54
+SKU-000012,Northwind Urban Throw Blanket,HOME,137.99,71.59
+SKU-000013,Northwind Pro Bluetooth Speaker,ELECTRONICS,629.99,468.26
+SKU-000014,Harbor Classic Vacuum,HOME,89.99,53.30
+SKU-000015,Acme Eco Tennis Racket,SPORTS,11.99,6.56
+SKU-000016,Contoso Premium Keyboard,ELECTRONICS,129.99,98.57
+SKU-000017,Summit Deluxe Dumbbells,SPORTS,180.99,108.34
+SKU-000018,Vertex Deluxe Camera,ELECTRONICS,493.99,308.67
+SKU-000019,Summit Essential Puzzle,TOYS,58.99,27.92
+SKU-000020,Summit Compact Throw Blanket,HOME,33.99,17.25
+SKU-000021,Harbor Deluxe Watch,JEWELRY,488.99,155.75
+SKU-000022,Vertex Lite Board Game,TOYS,25.99,15.47
+SKU-000023,Willow Pro Blender,HOME,48.99,24.82
+SKU-000024,Contoso Pro Moisturizer,BEAUTY,16.99,5.33
+SKU-000025,Summit Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-000026,Fabrikam Signature Olive Oil,GROCERY,13.99,7.70
+SKU-000027,Northwind Classic Sweater,APPAREL,90.99,46.00
+SKU-000028,Harbor Signature Shampoo,BEAUTY,16.99,6.72
+SKU-000029,Northwind Premium Keyboard,ELECTRONICS,125.99,90.61
+SKU-000030,Fabrikam Lite Blender,HOME,32.99,20.02
+SKU-000031,Willow Premium Tennis Racket,SPORTS,134.99,84.19
+SKU-000032,Fabrikam Classic Monitor,ELECTRONICS,140.99,90.79
+SKU-000033,Summit Compact Vacuum,HOME,71.99,34.76
+SKU-000034,Contoso Compact Perfume,BEAUTY,22.99,6.95
+SKU-000035,Fabrikam Deluxe Vacuum,HOME,21.99,10.21
+SKU-000036,Acme Compact Sweater,APPAREL,10.99,5.10
+SKU-000037,Contoso Deluxe Coffee Maker,HOME,274.99,173.72
+SKU-000038,Acme Classic Comic Volume,BOOKS,14.99,7.59
+SKU-000039,Contoso Signature T-Shirt,APPAREL,66.99,34.75
+SKU-000040,Acme Urban Hoodie,APPAREL,34.99,14.78
+SKU-000041,Acme Premium Headphones,ELECTRONICS,37.99,27.90
+SKU-000042,Contoso Urban Bluetooth Speaker,ELECTRONICS,823.99,650.11
+SKU-000043,Northwind Eco Jacket,APPAREL,60.99,32.38
+SKU-000044,Acme Compact Watch,JEWELRY,61.99,19.07
+SKU-000045,Acme Essential Puzzle,TOYS,33.99,20.38
+SKU-000046,Summit Deluxe Protein Bars,GROCERY,37.99,23.23
+SKU-000047,Willow Lite Lamp,HOME,154.99,87.07
+SKU-000048,Acme Classic T-Shirt,APPAREL,63.99,26.95
+SKU-000049,Vertex Premium Shampoo,BEAUTY,76.99,36.07
+SKU-000050,Vertex Compact Shorts,APPAREL,85.99,46.45
+SKU-000051,Willow Urban Blender,HOME,207.99,94.64
+SKU-000052,Willow Compact Travel Guide,BOOKS,28.99,15.94
+SKU-000053,Harbor Classic Snack Box,GROCERY,3.99,2.28
+SKU-000054,Lumen Eco Shampoo,BEAUTY,87.99,43.68
+SKU-000055,Northwind Eco Blender,HOME,63.99,34.22
+SKU-000056,Lumen Classic Jeans,APPAREL,33.99,16.85
+SKU-000057,Northwind Deluxe Shorts,APPAREL,118.99,44.31
+SKU-000058,Willow Premium Shorts,APPAREL,18.99,8.91
+SKU-000059,Orbit Urban Jeans,APPAREL,56.99,30.52
+SKU-000060,Vertex Classic Yoga Mat,SPORTS,171.99,97.72
+SKU-000061,Lumen Classic Puzzle,TOYS,39.99,16.22
+SKU-000062,Lumen Deluxe Throw Blanket,HOME,391.99,245.37
+SKU-000063,Acme Deluxe Travel Guide,BOOKS,13.99,8.19
+SKU-000064,Willow Urban RC Car,TOYS,23.99,13.56
+SKU-000065,Orbit Eco Smartwatch,ELECTRONICS,707.99,505.51
+SKU-000066,Willow Classic Cookware Set,HOME,179.99,93.54
+SKU-000067,Harbor Urban T-Shirt,APPAREL,12.99,7.00
+SKU-000068,Willow Deluxe Lamp,HOME,124.99,58.55
+SKU-000069,Orbit Classic T-Shirt,APPAREL,13.99,5.50
+SKU-000070,Harbor Urban Doll House,TOYS,36.99,19.64
+SKU-000071,Orbit Eco T-Shirt,APPAREL,12.99,5.38
+SKU-000072,Summit Urban Dress,APPAREL,89.99,34.19
+SKU-000073,Fabrikam Classic Monitor,ELECTRONICS,56.99,35.90
+SKU-000074,Acme Premium Biography,BOOKS,9.99,6.99
+SKU-000075,Harbor Premium Shorts,APPAREL,56.99,30.47
+SKU-000076,Vertex Signature Coffee Maker,HOME,381.99,199.23
+SKU-000077,Northwind Pro Throw Blanket,HOME,62.99,35.79
+SKU-000078,Northwind Classic Dress,APPAREL,27.99,12.80
+SKU-000079,Orbit Signature Travel Guide,BOOKS,17.99,11.45
+SKU-000080,Acme Pro Monitor,ELECTRONICS,65.99,47.16
+SKU-000081,Orbit Eco Shorts,APPAREL,23.99,11.86
+SKU-000082,Lumen Classic Rug,HOME,52.99,31.17
+SKU-000083,Contoso Classic Bracelet,JEWELRY,241.99,97.95
+SKU-000084,Acme Pro Green Tea,GROCERY,4.99,3.74
+SKU-000085,Willow Essential Hair Dryer Kit,BEAUTY,5.99,2.90
+SKU-000086,Contoso Deluxe Cookware Set,HOME,139.99,68.23
+SKU-000087,Vertex Compact Jeans,APPAREL,42.99,15.41
+SKU-000088,Harbor Pro Yoga Mat,SPORTS,38.99,23.28
+SKU-000089,Northwind Lite Jeans,APPAREL,88.99,44.79
+SKU-000090,Willow Classic Pasta Pack,GROCERY,39.99,23.26
+SKU-000091,Summit Compact Olive Oil,GROCERY,2.99,1.65
+SKU-000092,Lumen Essential Board Game,TOYS,10.99,6.32
+SKU-000093,Vertex Lite Dumbbells,SPORTS,122.99,56.29
+SKU-000094,Vertex Deluxe Rug,HOME,36.99,20.04
+SKU-000095,Lumen Eco Olive Oil,GROCERY,13.99,7.71
+SKU-000096,Willow Signature Sneakers,APPAREL,21.99,11.15
+SKU-000097,Lumen Premium Lamp,HOME,53.99,30.64
+SKU-000098,Orbit Essential Hoodie,APPAREL,140.99,54.35
+SKU-000099,Summit Signature Green Tea,GROCERY,5.99,4.46
+SKU-000100,Northwind Lite Plush Toy,TOYS,24.99,12.43
+SKU-000101,Orbit Eco Blender,HOME,37.99,22.27
+SKU-000102,Orbit Premium Dumbbells,SPORTS,102.99,50.29
+SKU-000103,Northwind Classic Yoga Mat,SPORTS,50.99,31.70
+SKU-000104,Contoso Urban Biography,BOOKS,12.99,7.14
+SKU-000105,Fabrikam Urban Doll House,TOYS,49.99,29.20
+SKU-000106,Harbor Lite Headphones,ELECTRONICS,550.99,339.01
+SKU-000107,Vertex Deluxe Tennis Racket,SPORTS,89.99,53.33
+SKU-000108,Harbor Signature Plush Toy,TOYS,47.99,19.53
+SKU-000109,Contoso Classic Running Shoes,SPORTS,82.99,41.37
+SKU-000110,Acme Premium Hoodie,APPAREL,24.99,12.40
+SKU-000111,Lumen Classic Face Serum,BEAUTY,8.99,3.53
+SKU-000112,Vertex Compact Monitor,ELECTRONICS,38.99,26.91
+SKU-000113,Willow Essential Smartwatch,ELECTRONICS,20.99,16.48
+SKU-000114,Vertex Compact Ring,JEWELRY,202.99,68.08
+SKU-000115,Orbit Classic Sneakers,APPAREL,41.99,15.46
+SKU-000116,Willow Eco Hoodie,APPAREL,25.99,10.10
+SKU-000117,Fabrikam Pro Tablet,ELECTRONICS,170.99,112.39
+SKU-000118,Acme Signature Water Bottle,SPORTS,25.99,13.67
+SKU-000119,Contoso Lite Blender,HOME,125.99,70.67
+SKU-000120,Fabrikam Premium T-Shirt,APPAREL,59.99,32.31
+SKU-000121,Contoso Compact Shampoo,BEAUTY,75.99,37.64
+SKU-000122,Acme Eco Tablet,ELECTRONICS,615.99,476.77
+SKU-000123,Contoso Compact Water Bottle,SPORTS,53.99,33.40
+SKU-000124,Summit Compact Camera,ELECTRONICS,454.99,279.69
+SKU-000125,Northwind Urban Dumbbells,SPORTS,55.99,25.35
+SKU-000126,Orbit Pro Sneakers,APPAREL,51.99,21.08
+SKU-000127,Harbor Essential Jeans,APPAREL,48.99,23.78
+SKU-000128,Acme Pro Hoodie,APPAREL,69.99,34.21
+SKU-000129,Orbit Essential Smartwatch,ELECTRONICS,1214.99,868.80
+SKU-000130,Summit Pro Puzzle,TOYS,10.99,5.48
+SKU-000131,Vertex Premium Pasta Pack,GROCERY,12.99,9.14
+SKU-000132,Orbit Pro Plush Toy,TOYS,11.99,5.13
+SKU-000133,Orbit Eco Puzzle,TOYS,18.99,10.82
+SKU-000134,Orbit Eco Perfume,BEAUTY,30.99,11.01
+SKU-000135,Summit Essential Sweater,APPAREL,32.99,16.31
+SKU-000136,Summit Classic Doll House,TOYS,96.99,48.18
+SKU-000137,Acme Lite Blender,HOME,149.99,94.24
+SKU-000138,Acme Compact Camera,ELECTRONICS,380.99,255.14
+SKU-000139,Northwind Signature Shorts,APPAREL,44.99,24.45
+SKU-000140,Northwind Deluxe Rug,HOME,103.99,49.30
+SKU-000141,Vertex Essential Smartwatch,ELECTRONICS,130.99,88.71
+SKU-000142,Orbit Premium Yoga Mat,SPORTS,52.99,24.01
+SKU-000143,Northwind Lite Keyboard,ELECTRONICS,215.99,130.44
+SKU-000144,Summit Compact Doll House,TOYS,17.99,9.53
+SKU-000145,Contoso Pro Shampoo,BEAUTY,7.99,3.34
+SKU-000146,Willow Essential Snack Box,GROCERY,3.99,2.60
+SKU-000147,Acme Deluxe Throw Blanket,HOME,297.99,184.15
+SKU-000148,Contoso Premium Vacuum,HOME,15.99,7.78
+SKU-000149,Willow Deluxe Rug,HOME,26.99,12.15
+SKU-000150,Orbit Classic Coffee Maker,HOME,24.99,15.92
+SKU-000151,Contoso Pro Protein Bars,GROCERY,13.99,8.36
+SKU-000152,Orbit Signature Shorts,APPAREL,13.99,6.10
+SKU-000153,Contoso Pro Hoodie,APPAREL,52.99,20.44
+SKU-000154,Summit Compact Smartwatch,ELECTRONICS,405.99,275.54
+SKU-000155,Acme Essential Sweater,APPAREL,100.99,39.28
+SKU-000156,Vertex Classic Shorts,APPAREL,148.99,76.47
+SKU-000157,Lumen Signature Cookware Set,HOME,82.99,50.77
+SKU-000158,Vertex Essential Olive Oil,GROCERY,6.99,4.44
+SKU-000159,Vertex Pro Dress,APPAREL,125.99,44.26
+SKU-000160,Summit Lite Bluetooth Speaker,ELECTRONICS,232.99,181.26
+SKU-000161,Orbit Essential Tablet,ELECTRONICS,44.99,34.47
+SKU-000162,Orbit Classic Rug,HOME,122.99,74.49
+SKU-000163,Vertex Essential Textbook,BOOKS,8.99,5.59
+SKU-000164,Willow Eco Headphones,ELECTRONICS,26.99,21.20
+SKU-000165,Acme Pro Shorts,APPAREL,25.99,13.92
+SKU-000166,Vertex Deluxe Smartwatch,ELECTRONICS,24.99,15.48
+SKU-000167,Acme Premium Camera,ELECTRONICS,710.99,541.91
+SKU-000168,Harbor Signature Lipstick,BEAUTY,51.99,17.15
+SKU-000169,Orbit Essential Moisturizer,BEAUTY,28.99,13.92
+SKU-000170,Harbor Essential Throw Blanket,HOME,21.99,11.78
+SKU-000171,Willow Urban Hoodie,APPAREL,62.99,27.05
+SKU-000172,Northwind Signature Cookware Set,HOME,253.99,145.99
+SKU-000173,Acme Urban Smartwatch,ELECTRONICS,193.99,152.61
+SKU-000174,Lumen Premium Shampoo,BEAUTY,5.99,2.53
+SKU-000175,Fabrikam Signature Sweater,APPAREL,125.99,64.29
+SKU-000176,Lumen Essential Monitor,ELECTRONICS,83.99,59.92
+SKU-000177,Willow Essential Smartwatch,ELECTRONICS,41.99,31.31
+SKU-000178,Harbor Urban Vacuum,HOME,43.99,27.04
+SKU-000179,Orbit Classic Hoodie,APPAREL,116.99,54.72
+SKU-000180,Summit Eco Monitor,ELECTRONICS,78.99,61.81
+SKU-000181,Willow Premium Keyboard,ELECTRONICS,118.99,79.14
+SKU-000182,Lumen Lite Lipstick,BEAUTY,9.99,4.14
+SKU-000183,Vertex Lite Keyboard,ELECTRONICS,105.99,65.47
+SKU-000184,Summit Essential Shampoo,BEAUTY,21.99,9.81
+SKU-000185,Summit Premium Hair Dryer Kit,BEAUTY,31.99,14.09
+SKU-000186,Acme Deluxe Novel,BOOKS,12.99,7.49
+SKU-000187,Willow Urban Shorts,APPAREL,32.99,17.07
+SKU-000188,Acme Urban Rug,HOME,93.99,46.64
+SKU-000189,Harbor Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000190,Lumen Deluxe Bluetooth Speaker,ELECTRONICS,569.99,360.86
+SKU-000191,Harbor Signature Doll House,TOYS,19.99,10.14
+SKU-000192,Orbit Compact RC Car,TOYS,15.99,9.40
+SKU-000193,Orbit Urban Dress,APPAREL,48.99,25.34
+SKU-000194,Fabrikam Essential Bike Helmet,SPORTS,92.99,55.57
+SKU-000195,Summit Essential Sneakers,APPAREL,29.99,15.39
+SKU-000196,Willow Deluxe Vacuum,HOME,15.99,8.87
+SKU-000197,Fabrikam Compact Tennis Racket,SPORTS,65.99,39.34
+SKU-000198,Contoso Essential Sneakers,APPAREL,80.99,43.79
+SKU-000199,Contoso Urban Cookware Set,HOME,20.99,10.83
+SKU-000200,Fabrikam Classic Puzzle,TOYS,8.99,4.03
+SKU-000201,Lumen Signature Hair Dryer Kit,BEAUTY,9.99,4.18
+SKU-000202,Orbit Essential Tablet,ELECTRONICS,362.99,265.48
+SKU-000203,Harbor Eco Smartwatch,ELECTRONICS,31.99,20.30
+SKU-000204,Northwind Premium Jacket,APPAREL,51.99,21.41
+SKU-000205,Acme Urban Sweater,APPAREL,30.99,13.23
+SKU-000206,Summit Pro Sneakers,APPAREL,29.99,14.47
+SKU-000207,Fabrikam Premium Board Game,TOYS,38.99,16.23
+SKU-000208,Harbor Compact Cookware Set,HOME,110.99,72.10
+SKU-000209,Acme Urban Headphones,ELECTRONICS,279.99,192.85
+SKU-000210,Orbit Compact Board Game,TOYS,17.99,7.22
+SKU-000211,Northwind Urban Lamp,HOME,18.99,11.56
+SKU-000212,Acme Premium Ring,JEWELRY,139.99,51.84
+SKU-000213,Orbit Signature Monitor,ELECTRONICS,74.99,56.51
+SKU-000214,Lumen Signature Perfume,BEAUTY,6.99,3.34
+SKU-000215,Northwind Eco Green Tea,GROCERY,2.99,1.92
+SKU-000216,Lumen Compact Shorts,APPAREL,137.99,48.83
+SKU-000217,Lumen Signature Keyboard,ELECTRONICS,675.99,467.63
+SKU-000218,Acme Urban Vacuum,HOME,45.99,24.78
+SKU-000219,Lumen Essential Plush Toy,TOYS,10.99,5.05
+SKU-000220,Acme Compact T-Shirt,APPAREL,24.99,11.33
+SKU-000221,Northwind Classic T-Shirt,APPAREL,93.99,34.35
+SKU-000222,Acme Classic Coffee Beans,GROCERY,23.99,13.55
+SKU-000223,Orbit Deluxe Coffee Maker,HOME,352.99,207.29
+SKU-000224,Vertex Deluxe Hoodie,APPAREL,38.99,15.33
+SKU-000225,Northwind Compact Sweater,APPAREL,58.99,23.17
+SKU-000226,Summit Pro Vacuum,HOME,92.99,43.44
+SKU-000227,Orbit Pro Headphones,ELECTRONICS,1174.99,840.85
+SKU-000228,Contoso Deluxe Protein Bars,GROCERY,28.99,19.13
+SKU-000229,Willow Compact Sweater,APPAREL,41.99,17.02
+SKU-000230,Acme Signature Keyboard,ELECTRONICS,948.99,694.72
+SKU-000231,Fabrikam Compact Sweater,APPAREL,92.99,50.57
+SKU-000232,Acme Premium Travel Guide,BOOKS,36.99,23.77
+SKU-000233,Northwind Eco T-Shirt,APPAREL,47.99,17.16
+SKU-000234,Harbor Lite Shorts,APPAREL,82.99,37.87
+SKU-000235,Harbor Pro Jeans,APPAREL,24.99,10.84
+SKU-000236,Lumen Essential Hair Dryer Kit,BEAUTY,20.99,9.97
+SKU-000237,Summit Deluxe Doll House,TOYS,16.99,8.97
+SKU-000238,Willow Signature Novel,BOOKS,17.99,10.21
+SKU-000239,Summit Compact Jeans,APPAREL,93.99,49.11
+SKU-000240,Acme Pro Coffee Maker,HOME,12.99,6.48
+SKU-000241,Orbit Classic Bluetooth Speaker,ELECTRONICS,188.99,140.34
+SKU-000242,Willow Urban Hoodie,APPAREL,12.99,5.96
+SKU-000243,Fabrikam Compact Throw Blanket,HOME,18.99,9.11
+SKU-000244,Contoso Eco Monitor,ELECTRONICS,159.99,106.93
+SKU-000245,Northwind Signature Lipstick,BEAUTY,81.99,38.91
+SKU-000246,Lumen Compact Water Bottle,SPORTS,31.99,14.94
+SKU-000247,Fabrikam Signature Monitor,ELECTRONICS,31.99,23.25
+SKU-000248,Vertex Lite Coffee Beans,GROCERY,26.99,18.51
+SKU-000249,Acme Pro Sweater,APPAREL,10.99,5.30
+SKU-000250,Northwind Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000251,Fabrikam Urban Lamp,HOME,60.99,29.52
+SKU-000252,Lumen Premium Dress,APPAREL,29.99,12.74
+SKU-000253,Vertex Compact Perfume,BEAUTY,23.99,10.19
+SKU-000254,Willow Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000255,Acme Classic Vacuum,HOME,39.99,18.87
+SKU-000256,Orbit Deluxe Rug,HOME,26.99,15.66
+SKU-000257,Northwind Pro Bracelet,JEWELRY,44.99,17.56
+SKU-000258,Orbit Compact Headphones,ELECTRONICS,55.99,38.13
+SKU-000259,Northwind Eco Keyboard,ELECTRONICS,419.99,267.87
+SKU-000260,Northwind Compact Ring,JEWELRY,164.99,74.89
+SKU-000261,Lumen Pro Face Serum,BEAUTY,57.99,17.86
+SKU-000262,Fabrikam Eco Sneakers,APPAREL,16.99,8.35
+SKU-000263,Lumen Signature Jeans,APPAREL,20.99,8.64
+SKU-000264,Acme Compact Earrings,JEWELRY,99.99,30.98
+SKU-000265,Contoso Urban Hair Dryer Kit,BEAUTY,16.99,5.29
+SKU-000266,Acme Classic T-Shirt,APPAREL,19.99,10.49
+SKU-000267,Orbit Signature Shorts,APPAREL,30.99,12.34
+SKU-000268,Lumen Essential Coffee Maker,HOME,214.99,130.49
+SKU-000269,Acme Deluxe Blender,HOME,354.99,160.96
+SKU-000270,Vertex Signature Smartwatch,ELECTRONICS,24.99,16.56
+SKU-000271,Lumen Classic Bluetooth Speaker,ELECTRONICS,65.99,45.52
+SKU-000272,Willow Eco Smartwatch,ELECTRONICS,487.99,301.52
+SKU-000273,Vertex Eco Hoodie,APPAREL,13.99,6.58
+SKU-000274,Acme Eco Jacket,APPAREL,92.99,37.00
+SKU-000275,Acme Essential Protein Bars,GROCERY,8.99,5.38
+SKU-000276,Willow Premium Coffee Beans,GROCERY,18.99,10.86
+SKU-000277,Acme Pro Shorts,APPAREL,114.99,56.01
+SKU-000278,Lumen Eco Blender,HOME,14.99,7.57
+SKU-000279,Acme Classic Dumbbells,SPORTS,18.99,9.39
+SKU-000280,Orbit Urban Smartwatch,ELECTRONICS,40.99,29.53
+SKU-000281,Summit Classic Comic Volume,BOOKS,38.99,23.15
+SKU-000282,Lumen Urban Textbook,BOOKS,18.99,9.91
+SKU-000283,Fabrikam Eco Shampoo,BEAUTY,19.99,8.22
+SKU-000284,Contoso Classic Hoodie,APPAREL,19.99,7.35
+SKU-000285,Harbor Eco Sneakers,APPAREL,12.99,5.21
+SKU-000286,Summit Signature Dress,APPAREL,42.99,18.32
+SKU-000287,Harbor Signature Rug,HOME,147.99,89.61
+SKU-000288,Fabrikam Eco Cookware Set,HOME,97.99,48.78
+SKU-000289,Lumen Premium Dress,APPAREL,16.99,9.01
+SKU-000290,Summit Eco Bluetooth Speaker,ELECTRONICS,232.99,178.14
+SKU-000291,Fabrikam Compact Camera,ELECTRONICS,559.99,406.59
+SKU-000292,Willow Compact Jeans,APPAREL,11.99,5.88
+SKU-000293,Acme Signature Jeans,APPAREL,25.99,12.20
+SKU-000294,Lumen Signature Lamp,HOME,47.99,27.95
+SKU-000295,Fabrikam Lite Coffee Beans,GROCERY,45.99,31.55
+SKU-000296,Summit Eco Keyboard,ELECTRONICS,38.99,28.67
+SKU-000297,Harbor Urban Dress,APPAREL,99.99,36.04
+SKU-000298,Willow Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000299,Orbit Essential Headphones,ELECTRONICS,648.99,517.32
+SKU-000300,Harbor Urban Throw Blanket,HOME,33.99,20.81
+SKU-000301,Orbit Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-000302,Harbor Eco Perfume,BEAUTY,24.99,10.91
+SKU-000303,Willow Classic Smartwatch,ELECTRONICS,139.99,92.81
+SKU-000304,Northwind Essential Cookware Set,HOME,198.99,94.92
+SKU-000305,Harbor Deluxe Bluetooth Speaker,ELECTRONICS,505.99,336.25
+SKU-000306,Northwind Pro Headphones,ELECTRONICS,676.99,518.70
+SKU-000307,Harbor Pro Dumbbells,SPORTS,28.99,15.77
+SKU-000308,Contoso Pro Lamp,HOME,45.99,24.71
+SKU-000309,Northwind Compact Cookware Set,HOME,37.99,23.56
+SKU-000310,Northwind Urban Water Bottle,SPORTS,114.99,64.95
+SKU-000311,Vertex Premium Face Serum,BEAUTY,27.99,12.72
+SKU-000312,Lumen Pro Textbook,BOOKS,11.99,7.79
+SKU-000313,Summit Pro Novel,BOOKS,12.99,8.85
+SKU-000314,Lumen Deluxe Biography,BOOKS,30.99,17.66
+SKU-000315,Orbit Urban Coffee Beans,GROCERY,5.99,3.76
+SKU-000316,Contoso Signature Jeans,APPAREL,20.99,10.65
+SKU-000317,Harbor Compact Novel,BOOKS,39.99,23.45
+SKU-000318,Summit Premium T-Shirt,APPAREL,119.99,55.71
+SKU-000319,Lumen Pro Lamp,HOME,31.99,15.30
+SKU-000320,Contoso Deluxe Bluetooth Speaker,ELECTRONICS,31.99,25.15
+SKU-000321,Vertex Essential Protein Bars,GROCERY,5.99,3.69
+SKU-000322,Acme Signature Running Shoes,SPORTS,11.99,6.45
+SKU-000323,Vertex Pro Perfume,BEAUTY,18.99,7.61
+SKU-000324,Willow Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000325,Orbit Premium Throw Blanket,HOME,16.99,8.10
+SKU-000326,Fabrikam Pro Lamp,HOME,47.99,29.61
+SKU-000327,Contoso Compact Building Blocks,TOYS,8.99,3.62
+SKU-000328,Acme Urban Bike Helmet,SPORTS,164.99,86.69
+SKU-000329,Contoso Lite Vacuum,HOME,41.99,24.29
+SKU-000330,Acme Compact Protein Bars,GROCERY,20.99,11.74
+SKU-000331,Orbit Pro Plush Toy,TOYS,146.99,65.32
+SKU-000332,Harbor Eco Headphones,ELECTRONICS,96.99,63.09
+SKU-000333,Harbor Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-000334,Fabrikam Deluxe Rug,HOME,60.99,31.01
+SKU-000335,Acme Lite Tablet,ELECTRONICS,421.99,286.98
+SKU-000336,Summit Eco Camera,ELECTRONICS,50.99,38.53
+SKU-000337,Fabrikam Essential Dumbbells,SPORTS,39.99,23.33
+SKU-000338,Summit Premium Yoga Mat,SPORTS,185.99,104.98
+SKU-000339,Contoso Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000340,Acme Eco Dress,APPAREL,30.99,12.94
+SKU-000341,Lumen Pro Headphones,ELECTRONICS,1116.99,808.07
+SKU-000342,Harbor Urban Rug,HOME,10.99,5.08
+SKU-000343,Orbit Pro Running Shoes,SPORTS,218.99,105.29
+SKU-000344,Summit Urban Headphones,ELECTRONICS,664.99,515.73
+SKU-000345,Vertex Compact Running Shoes,SPORTS,17.99,10.74
+SKU-000346,Lumen Compact Coffee Beans,GROCERY,11.99,8.86
+SKU-000347,Fabrikam Classic Throw Blanket,HOME,28.99,14.04
+SKU-000348,Harbor Deluxe Doll House,TOYS,111.99,56.33
+SKU-000349,Harbor Pro Tablet,ELECTRONICS,82.99,60.94
+SKU-000350,Northwind Premium Jacket,APPAREL,17.99,8.32
+SKU-000351,Harbor Lite Sneakers,APPAREL,26.99,14.54
+SKU-000352,Fabrikam Eco Bracelet,JEWELRY,31.99,10.39
+SKU-000353,Fabrikam Eco Olive Oil,GROCERY,2.99,1.90
+SKU-000354,Harbor Premium Smartwatch,ELECTRONICS,73.99,45.93
+SKU-000355,Acme Lite Coffee Beans,GROCERY,21.99,12.34
+SKU-000356,Fabrikam Urban Blender,HOME,108.99,60.81
+SKU-000357,Orbit Pro Water Bottle,SPORTS,93.99,52.18
+SKU-000358,Vertex Classic Bluetooth Speaker,ELECTRONICS,59.99,37.40
+SKU-000359,Vertex Pro Jacket,APPAREL,15.99,8.49
+SKU-000360,Willow Deluxe Rug,HOME,194.99,117.66
+SKU-000361,Willow Signature Green Tea,GROCERY,27.99,19.53
+SKU-000362,Willow Pro Hoodie,APPAREL,68.99,25.87
+SKU-000363,Willow Lite Board Game,TOYS,109.99,63.66
+SKU-000364,Fabrikam Deluxe Puzzle,TOYS,33.99,15.93
+SKU-000365,Orbit Classic Hoodie,APPAREL,126.99,67.51
+SKU-000366,Acme Compact Protein Bars,GROCERY,5.99,3.79
+SKU-000367,Acme Compact Dress,APPAREL,87.99,47.19
+SKU-000368,Harbor Urban Shampoo,BEAUTY,5.99,2.66
+SKU-000369,Harbor Classic Dress,APPAREL,82.99,38.90
+SKU-000370,Vertex Pro Novel,BOOKS,16.99,10.11
+SKU-000371,Fabrikam Urban Shorts,APPAREL,123.99,59.12
+SKU-000372,Summit Lite Hair Dryer Kit,BEAUTY,23.99,9.75
+SKU-000373,Northwind Compact Keyboard,ELECTRONICS,586.99,401.01
+SKU-000374,Lumen Urban Sweater,APPAREL,106.99,51.77
+SKU-000375,Contoso Essential Jeans,APPAREL,59.99,23.65
+SKU-000376,Willow Lite Shampoo,BEAUTY,37.99,14.57
+SKU-000377,Northwind Compact Shampoo,BEAUTY,41.99,15.62
+SKU-000378,Willow Classic Vacuum,HOME,49.99,28.73
+SKU-000379,Northwind Deluxe Headphones,ELECTRONICS,989.99,666.01
+SKU-000380,Northwind Pro Biography,BOOKS,15.99,10.32
+SKU-000381,Contoso Urban Rug,HOME,31.99,15.32
+SKU-000382,Harbor Pro Jeans,APPAREL,36.99,19.81
+SKU-000383,Fabrikam Urban Sneakers,APPAREL,26.99,10.35
+SKU-000384,Acme Eco Watch,JEWELRY,252.99,106.56
+SKU-000385,Willow Pro Jacket,APPAREL,72.99,36.76
+SKU-000386,Willow Lite Sneakers,APPAREL,27.99,11.50
+SKU-000387,Acme Classic Novel,BOOKS,15.99,8.76
+SKU-000388,Orbit Deluxe Rug,HOME,29.99,16.62
+SKU-000389,Harbor Essential Bike Helmet,SPORTS,10.99,6.72
+SKU-000390,Acme Compact Sweater,APPAREL,21.99,8.90
+SKU-000391,Willow Pro Perfume,BEAUTY,17.99,8.48
+SKU-000392,Vertex Essential Yoga Mat,SPORTS,36.99,20.22
+SKU-000393,Contoso Lite T-Shirt,APPAREL,28.99,11.09
+SKU-000394,Harbor Signature Perfume,BEAUTY,7.99,2.54
+SKU-000395,Summit Essential Camera,ELECTRONICS,666.99,488.60
+SKU-000396,Fabrikam Signature Bluetooth Speaker,ELECTRONICS,470.99,338.46
+SKU-000397,Lumen Urban Vacuum,HOME,32.99,21.26
+SKU-000398,Northwind Deluxe Tablet,ELECTRONICS,25.99,20.42
+SKU-000399,Northwind Deluxe Running Shoes,SPORTS,77.99,47.59
+SKU-000400,Contoso Pro Keyboard,ELECTRONICS,89.99,64.01
+SKU-000401,Lumen Urban Smartwatch,ELECTRONICS,228.99,150.53
+SKU-000402,Summit Essential Tennis Racket,SPORTS,90.99,42.91
+SKU-000403,Orbit Eco Dumbbells,SPORTS,256.99,155.79
+SKU-000404,Acme Essential Face Serum,BEAUTY,7.99,3.44
+SKU-000405,Harbor Premium Vacuum,HOME,65.99,35.21
+SKU-000406,Vertex Pro Rug,HOME,16.99,10.72
+SKU-000407,Contoso Premium Plush Toy,TOYS,44.99,18.11
+SKU-000408,Summit Premium Rug,HOME,18.99,10.25
+SKU-000409,Contoso Essential Lamp,HOME,242.99,128.85
+SKU-000410,Harbor Pro Novel,BOOKS,58.99,33.70
+SKU-000411,Summit Signature Rug,HOME,14.99,7.50
+SKU-000412,Orbit Eco Camera,ELECTRONICS,1252.99,841.25
+SKU-000413,Summit Premium Shorts,APPAREL,15.99,6.31
+SKU-000414,Acme Eco Dress,APPAREL,47.99,18.27
+SKU-000415,Acme Premium Doll House,TOYS,54.99,31.19
+SKU-000416,Vertex Essential Face Serum,BEAUTY,76.99,27.26
+SKU-000417,Willow Signature Tablet,ELECTRONICS,21.99,16.83
+SKU-000418,Vertex Deluxe Moisturizer,BEAUTY,55.99,18.07
+SKU-000419,Harbor Essential Jeans,APPAREL,52.99,18.68
+SKU-000420,Summit Urban Lamp,HOME,14.99,7.09
+SKU-000421,Summit Classic Olive Oil,GROCERY,24.99,14.76
+SKU-000422,Harbor Premium Travel Guide,BOOKS,20.99,14.03
+SKU-000423,Contoso Lite Moisturizer,BEAUTY,55.99,21.76
+SKU-000424,Harbor Signature Vacuum,HOME,21.99,12.61
+SKU-000425,Vertex Classic Sneakers,APPAREL,12.99,6.23
+SKU-000426,Fabrikam Lite Coffee Maker,HOME,32.99,15.47
+SKU-000427,Harbor Eco Yoga Mat,SPORTS,28.99,14.90
+SKU-000428,Summit Premium Snack Box,GROCERY,3.99,2.28
+SKU-000429,Northwind Signature Vacuum,HOME,352.99,163.75
+SKU-000430,Willow Pro Headphones,ELECTRONICS,103.99,63.62
+SKU-000431,Willow Eco Dress,APPAREL,26.99,12.67
+SKU-000432,Vertex Essential Shorts,APPAREL,38.99,16.89
+SKU-000433,Lumen Eco Biography,BOOKS,6.99,3.90
+SKU-000434,Northwind Urban Face Serum,BEAUTY,9.99,3.35
+SKU-000435,Fabrikam Premium Snack Box,GROCERY,10.99,6.34
+SKU-000436,Fabrikam Compact Shorts,APPAREL,91.99,33.98
+SKU-000437,Vertex Compact Sneakers,APPAREL,63.99,32.01
+SKU-000438,Vertex Urban Shorts,APPAREL,27.99,14.56
+SKU-000439,Acme Urban Textbook,BOOKS,39.99,26.01
+SKU-000440,Orbit Eco Protein Bars,GROCERY,3.99,2.99
+SKU-000441,Orbit Urban Running Shoes,SPORTS,16.99,10.24
+SKU-000442,Summit Premium Coffee Maker,HOME,108.99,55.31
+SKU-000443,Willow Essential Yoga Mat,SPORTS,217.99,119.65
+SKU-000444,Orbit Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-000445,Northwind Classic Vacuum,HOME,13.99,8.75
+SKU-000446,Summit Lite Bike Helmet,SPORTS,10.99,6.69
+SKU-000447,Lumen Deluxe Dress,APPAREL,94.99,33.87
+SKU-000448,Northwind Classic Building Blocks,TOYS,28.99,12.73
+SKU-000449,Vertex Premium Textbook,BOOKS,7.99,5.52
+SKU-000450,Acme Compact Jeans,APPAREL,67.99,29.76
+SKU-000451,Acme Lite Headphones,ELECTRONICS,449.99,327.95
+SKU-000452,Vertex Lite Smartwatch,ELECTRONICS,248.99,176.83
+SKU-000453,Fabrikam Eco Rug,HOME,37.99,23.20
+SKU-000454,Northwind Eco Smartwatch,ELECTRONICS,64.99,41.29
+SKU-000455,Orbit Compact Sneakers,APPAREL,10.99,5.54
+SKU-000456,Orbit Classic Tablet,ELECTRONICS,364.99,224.75
+SKU-000457,Lumen Eco Board Game,TOYS,10.99,5.96
+SKU-000458,Orbit Essential Vacuum,HOME,237.99,138.56
+SKU-000459,Lumen Pro Water Bottle,SPORTS,74.99,46.02
+SKU-000460,Lumen Eco Shampoo,BEAUTY,12.99,4.81
+SKU-000461,Willow Compact Coffee Maker,HOME,14.99,8.76
+SKU-000462,Acme Eco Keyboard,ELECTRONICS,1251.99,875.15
+SKU-000463,Fabrikam Deluxe Jacket,APPAREL,13.99,5.65
+SKU-000464,Fabrikam Urban Jacket,APPAREL,24.99,10.86
+SKU-000465,Orbit Urban Headphones,ELECTRONICS,408.99,255.67
+SKU-000466,Willow Deluxe Monitor,ELECTRONICS,51.99,39.11
+SKU-000467,Willow Signature Tablet,ELECTRONICS,99.99,74.65
+SKU-000468,Contoso Deluxe Face Serum,BEAUTY,10.99,4.56
+SKU-000469,Orbit Eco Tennis Racket,SPORTS,272.99,175.81
+SKU-000470,Fabrikam Pro Sweater,APPAREL,100.99,48.62
+SKU-000471,Orbit Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-000472,Orbit Essential Sweater,APPAREL,40.99,17.71
+SKU-000473,Fabrikam Pro Shorts,APPAREL,68.99,24.41
+SKU-000474,Contoso Classic Lipstick,BEAUTY,37.99,15.86
+SKU-000475,Vertex Urban Puzzle,TOYS,129.99,59.04
+SKU-000476,Lumen Pro Lamp,HOME,381.99,183.41
+SKU-000477,Contoso Compact Camera,ELECTRONICS,449.99,284.70
+SKU-000478,Fabrikam Lite Lamp,HOME,174.99,88.13
+SKU-000479,Contoso Urban T-Shirt,APPAREL,46.99,17.36
+SKU-000480,Fabrikam Compact Tablet,ELECTRONICS,49.99,35.84
+SKU-000481,Fabrikam Lite Lamp,HOME,22.99,10.98
+SKU-000482,Willow Eco Pasta Pack,GROCERY,46.99,26.77
+SKU-000483,Acme Pro Hoodie,APPAREL,17.99,9.64
+SKU-000484,Harbor Premium Shorts,APPAREL,40.99,14.76
+SKU-000485,Summit Classic Water Bottle,SPORTS,25.99,16.31
+SKU-000486,Fabrikam Signature Jeans,APPAREL,23.99,10.59
+SKU-000487,Fabrikam Signature Shorts,APPAREL,38.99,21.00
+SKU-000488,Willow Lite Plush Toy,TOYS,65.99,30.09
+SKU-000489,Lumen Signature Lamp,HOME,12.99,7.74
+SKU-000490,Acme Signature Monitor,ELECTRONICS,212.99,150.41
+SKU-000491,Acme Premium Coffee Maker,HOME,79.99,48.66
+SKU-000492,Willow Deluxe Board Game,TOYS,8.99,3.81
+SKU-000493,Lumen Eco Rug,HOME,34.99,22.45
+SKU-000494,Northwind Premium Olive Oil,GROCERY,9.99,6.73
+SKU-000495,Acme Essential T-Shirt,APPAREL,17.99,7.51
+SKU-000496,Lumen Signature Coffee Maker,HOME,174.99,99.32
+SKU-000497,Contoso Essential Biography,BOOKS,8.99,5.52
+SKU-000498,Summit Pro Coffee Beans,GROCERY,16.99,10.87
+SKU-000499,Summit Eco Camera,ELECTRONICS,96.99,76.37
+SKU-000500,Orbit Signature Smartwatch,ELECTRONICS,36.99,23.65
+SKU-000501,Harbor Classic Blender,HOME,334.99,211.91
+SKU-000502,Northwind Signature Shorts,APPAREL,122.99,52.61
+SKU-000503,Lumen Urban Sweater,APPAREL,128.99,46.96
+SKU-000504,Harbor Essential Shorts,APPAREL,12.99,6.47
+SKU-000505,Acme Premium Snack Box,GROCERY,2.99,2.14
+SKU-000506,Acme Premium Sneakers,APPAREL,11.99,5.28
+SKU-000507,Orbit Urban Monitor,ELECTRONICS,240.99,177.59
+SKU-000508,Lumen Deluxe Perfume,BEAUTY,45.99,18.38
+SKU-000509,Willow Pro Snack Box,GROCERY,28.99,16.68
+SKU-000510,Fabrikam Signature Olive Oil,GROCERY,18.99,10.85
+SKU-000511,Summit Premium Yoga Mat,SPORTS,133.99,70.79
+SKU-000512,Acme Classic Sneakers,APPAREL,102.99,49.51
+SKU-000513,Harbor Urban Coffee Maker,HOME,64.99,39.38
+SKU-000514,Vertex Urban Monitor,ELECTRONICS,858.99,628.07
+SKU-000515,Summit Urban Coffee Maker,HOME,277.99,167.15
+SKU-000516,Orbit Lite Shorts,APPAREL,12.99,5.23
+SKU-000517,Lumen Deluxe Shorts,APPAREL,42.99,18.08
+SKU-000518,Lumen Eco Sneakers,APPAREL,16.99,9.30
+SKU-000519,Willow Lite Smartwatch,ELECTRONICS,887.99,560.98
+SKU-000520,Contoso Urban Cookware Set,HOME,43.99,26.52
+SKU-000521,Harbor Urban Green Tea,GROCERY,19.99,11.55
+SKU-000522,Orbit Lite Sweater,APPAREL,13.99,7.07
+SKU-000523,Willow Lite Tablet,ELECTRONICS,270.99,167.94
+SKU-000524,Acme Classic Cookbook,BOOKS,8.99,5.94
+SKU-000525,Willow Premium Hoodie,APPAREL,12.99,6.82
+SKU-000526,Summit Deluxe Headphones,ELECTRONICS,581.99,449.97
+SKU-000527,Summit Eco Vacuum,HOME,38.99,21.73
+SKU-000528,Fabrikam Essential Comic Volume,BOOKS,8.99,6.14
+SKU-000529,Vertex Deluxe Blender,HOME,90.99,52.44
+SKU-000530,Vertex Essential Board Game,TOYS,85.99,43.17
+SKU-000531,Acme Classic Sneakers,APPAREL,10.99,4.35
+SKU-000532,Northwind Premium Building Blocks,TOYS,16.99,7.86
+SKU-000533,Northwind Eco Hoodie,APPAREL,70.99,32.92
+SKU-000534,Orbit Signature Board Game,TOYS,13.99,5.73
+SKU-000535,Fabrikam Classic Tablet,ELECTRONICS,692.99,497.22
+SKU-000536,Orbit Classic T-Shirt,APPAREL,16.99,9.05
+SKU-000537,Acme Lite Shorts,APPAREL,70.99,35.50
+SKU-000538,Contoso Compact Tennis Racket,SPORTS,10.99,6.40
+SKU-000539,Summit Eco Shampoo,BEAUTY,18.99,6.99
+SKU-000540,Contoso Premium T-Shirt,APPAREL,78.99,33.79
+SKU-000541,Contoso Deluxe Pasta Pack,GROCERY,15.99,10.35
+SKU-000542,Harbor Premium Headphones,ELECTRONICS,63.99,44.27
+SKU-000543,Summit Essential Headphones,ELECTRONICS,330.99,243.86
+SKU-000544,Acme Premium Coffee Maker,HOME,16.99,8.16
+SKU-000545,Orbit Deluxe T-Shirt,APPAREL,17.99,9.78
+SKU-000546,Northwind Classic Sneakers,APPAREL,105.99,56.95
+SKU-000547,Acme Urban Textbook,BOOKS,9.99,5.94
+SKU-000548,Willow Eco Textbook,BOOKS,24.99,16.63
+SKU-000549,Vertex Premium Green Tea,GROCERY,43.99,32.89
+SKU-000550,Harbor Essential Cookware Set,HOME,160.99,101.00
+SKU-000551,Vertex Compact Keyboard,ELECTRONICS,396.99,267.97
+SKU-000552,Willow Eco Vacuum,HOME,131.99,67.91
+SKU-000553,Vertex Compact Jeans,APPAREL,55.99,23.80
+SKU-000554,Summit Lite Keyboard,ELECTRONICS,718.99,493.80
+SKU-000555,Contoso Essential Smartwatch,ELECTRONICS,1276.99,906.24
+SKU-000556,Willow Deluxe Blender,HOME,132.99,82.48
+SKU-000557,Harbor Premium Sneakers,APPAREL,90.99,40.44
+SKU-000558,Contoso Lite Jeans,APPAREL,103.99,41.88
+SKU-000559,Northwind Eco Tablet,ELECTRONICS,451.99,356.43
+SKU-000560,Acme Classic Textbook,BOOKS,50.99,29.46
+SKU-000561,Vertex Deluxe Jacket,APPAREL,16.99,8.99
+SKU-000562,Lumen Signature Blender,HOME,49.99,24.71
+SKU-000563,Fabrikam Lite Biography,BOOKS,9.99,6.95
+SKU-000564,Harbor Lite Face Serum,BEAUTY,43.99,19.80
+SKU-000565,Summit Eco Blender,HOME,169.99,83.28
+SKU-000566,Willow Signature Dumbbells,SPORTS,17.99,8.36
+SKU-000567,Contoso Pro Sweater,APPAREL,74.99,40.76
+SKU-000568,Northwind Essential Jeans,APPAREL,47.99,18.59
+SKU-000569,Contoso Urban Plush Toy,TOYS,11.99,4.94
+SKU-000570,Fabrikam Deluxe Dress,APPAREL,38.99,14.83
+SKU-000571,Lumen Pro Perfume,BEAUTY,33.99,15.96
+SKU-000572,Harbor Compact Dress,APPAREL,19.99,9.52
+SKU-000573,Willow Compact Tablet,ELECTRONICS,1137.99,774.08
+SKU-000574,Contoso Lite Vacuum,HOME,32.99,16.14
+SKU-000575,Willow Urban Tablet,ELECTRONICS,835.99,610.93
+SKU-000576,Lumen Eco Sneakers,APPAREL,34.99,16.97
+SKU-000577,Harbor Deluxe Jeans,APPAREL,102.99,43.01
+SKU-000578,Vertex Deluxe Hoodie,APPAREL,32.99,12.74
+SKU-000579,Vertex Classic Camera,ELECTRONICS,385.99,293.21
+SKU-000580,Lumen Signature Biography,BOOKS,15.99,10.78
+SKU-000581,Fabrikam Essential Jacket,APPAREL,37.99,13.39
+SKU-000582,Acme Premium Comic Volume,BOOKS,9.99,5.53
+SKU-000583,Acme Signature Rug,HOME,75.99,42.78
+SKU-000584,Fabrikam Compact Blender,HOME,16.99,9.82
+SKU-000585,Contoso Urban Sneakers,APPAREL,51.99,20.31
+SKU-000586,Orbit Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-000587,Summit Deluxe Jacket,APPAREL,18.99,9.52
+SKU-000588,Vertex Compact Sweater,APPAREL,10.99,5.52
+SKU-000589,Orbit Pro Textbook,BOOKS,6.99,3.56
+SKU-000590,Northwind Deluxe Camera,ELECTRONICS,24.99,17.10
+SKU-000591,Vertex Premium Protein Bars,GROCERY,18.99,11.93
+SKU-000592,Northwind Compact T-Shirt,APPAREL,17.99,7.96
+SKU-000593,Harbor Classic Coffee Beans,GROCERY,9.99,6.08
+SKU-000594,Orbit Urban Hoodie,APPAREL,75.99,31.62
+SKU-000595,Lumen Compact Camera,ELECTRONICS,192.99,122.99
+SKU-000596,Willow Essential Hoodie,APPAREL,147.99,52.95
+SKU-000597,Willow Premium Doll House,TOYS,148.99,76.06
+SKU-000598,Summit Classic Bike Helmet,SPORTS,126.99,80.97
+SKU-000599,Harbor Urban Keyboard,ELECTRONICS,27.99,19.86
+SKU-000600,Harbor Premium Running Shoes,SPORTS,79.99,46.44
+SKU-000601,Vertex Deluxe Novel,BOOKS,39.99,20.11
+SKU-000602,Acme Lite Jeans,APPAREL,129.99,56.06
+SKU-000603,Willow Compact Vacuum,HOME,77.99,37.33
+SKU-000604,Lumen Lite Smartwatch,ELECTRONICS,44.99,32.27
+SKU-000605,Willow Urban Puzzle,TOYS,21.99,9.89
+SKU-000606,Vertex Eco Hoodie,APPAREL,61.99,27.32
+SKU-000607,Willow Signature Green Tea,GROCERY,47.99,35.52
+SKU-000608,Harbor Classic Hair Dryer Kit,BEAUTY,11.99,3.87
+SKU-000609,Orbit Lite Coffee Maker,HOME,38.99,19.92
+SKU-000610,Fabrikam Essential Sweater,APPAREL,112.99,55.63
+SKU-000611,Acme Compact Jacket,APPAREL,143.99,60.77
+SKU-000612,Northwind Signature Shorts,APPAREL,17.99,7.76
+SKU-000613,Vertex Compact Coffee Maker,HOME,194.99,125.16
+SKU-000614,Northwind Compact Hoodie,APPAREL,67.99,26.78
+SKU-000615,Fabrikam Essential Plush Toy,TOYS,18.99,10.10
+SKU-000616,Lumen Eco Green Tea,GROCERY,18.99,12.97
+SKU-000617,Fabrikam Eco Jeans,APPAREL,18.99,8.82
+SKU-000618,Harbor Classic Building Blocks,TOYS,8.99,3.88
+SKU-000619,Acme Urban Puzzle,TOYS,9.99,5.09
+SKU-000620,Lumen Essential Lamp,HOME,34.99,20.86
+SKU-000621,Willow Deluxe Dress,APPAREL,14.99,8.19
+SKU-000622,Vertex Eco Jeans,APPAREL,122.99,47.00
+SKU-000623,Fabrikam Premium Smartwatch,ELECTRONICS,47.99,31.86
+SKU-000624,Lumen Deluxe Plush Toy,TOYS,66.99,34.68
+SKU-000625,Contoso Pro Monitor,ELECTRONICS,66.99,49.43
+SKU-000626,Fabrikam Essential Jacket,APPAREL,69.99,29.48
+SKU-000627,Lumen Premium Jeans,APPAREL,76.99,32.69
+SKU-000628,Harbor Urban Blender,HOME,13.99,6.36
+SKU-000629,Summit Deluxe Shorts,APPAREL,10.99,5.08
+SKU-000630,Acme Compact Lipstick,BEAUTY,52.99,20.55
+SKU-000631,Lumen Eco Smartwatch,ELECTRONICS,60.99,47.33
+SKU-000632,Harbor Pro Travel Guide,BOOKS,58.99,40.72
+SKU-000633,Northwind Classic Face Serum,BEAUTY,11.99,3.69
+SKU-000634,Harbor Lite Watch,JEWELRY,271.99,102.79
+SKU-000635,Orbit Premium Perfume,BEAUTY,13.99,5.55
+SKU-000636,Harbor Eco Dress,APPAREL,18.99,6.94
+SKU-000637,Vertex Signature Sneakers,APPAREL,56.99,29.77
+SKU-000638,Northwind Signature Yoga Mat,SPORTS,146.99,92.07
+SKU-000639,Contoso Pro Dumbbells,SPORTS,18.99,12.11
+SKU-000640,Fabrikam Deluxe Lipstick,BEAUTY,10.99,4.73
+SKU-000641,Vertex Pro Camera,ELECTRONICS,28.99,19.86
+SKU-000642,Fabrikam Compact Vacuum,HOME,251.99,151.57
+SKU-000643,Fabrikam Pro Monitor,ELECTRONICS,51.99,34.46
+SKU-000644,Northwind Lite Headphones,ELECTRONICS,404.99,256.88
+SKU-000645,Willow Eco Tennis Racket,SPORTS,18.99,12.13
+SKU-000646,Acme Signature Throw Blanket,HOME,17.99,9.79
+SKU-000647,Willow Classic Dress,APPAREL,10.99,4.28
+SKU-000648,Harbor Lite Shorts,APPAREL,75.99,35.01
+SKU-000649,Contoso Eco Hoodie,APPAREL,11.99,4.87
+SKU-000650,Willow Eco Sweater,APPAREL,126.99,65.73
+SKU-000651,Contoso Eco Sweater,APPAREL,47.99,22.24
+SKU-000652,Vertex Premium Bike Helmet,SPORTS,13.99,8.32
+SKU-000653,Orbit Essential Rug,HOME,19.99,9.41
+SKU-000654,Fabrikam Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-000655,Harbor Premium Lipstick,BEAUTY,11.99,5.12
+SKU-000656,Harbor Signature Perfume,BEAUTY,32.99,16.40
+SKU-000657,Lumen Classic Shorts,APPAREL,144.99,63.09
+SKU-000658,Contoso Pro T-Shirt,APPAREL,110.99,40.45
+SKU-000659,Willow Urban Travel Guide,BOOKS,28.99,19.79
+SKU-000660,Vertex Lite RC Car,TOYS,26.99,11.93
+SKU-000661,Summit Deluxe Bluetooth Speaker,ELECTRONICS,98.99,60.46
+SKU-000662,Willow Urban Yoga Mat,SPORTS,54.99,26.97
+SKU-000663,Fabrikam Eco Perfume,BEAUTY,36.99,17.99
+SKU-000664,Acme Lite Green Tea,GROCERY,8.99,5.26
+SKU-000665,Lumen Lite Lipstick,BEAUTY,10.99,5.46
+SKU-000666,Fabrikam Essential Coffee Beans,GROCERY,13.99,7.70
+SKU-000667,Northwind Deluxe Bike Helmet,SPORTS,39.99,24.43
+SKU-000668,Contoso Pro Doll House,TOYS,34.99,15.19
+SKU-000669,Harbor Eco Novel,BOOKS,8.99,4.74
+SKU-000670,Northwind Eco Monitor,ELECTRONICS,137.99,109.10
+SKU-000671,Fabrikam Eco Plush Toy,TOYS,105.99,53.54
+SKU-000672,Acme Essential Keyboard,ELECTRONICS,370.99,290.58
+SKU-000673,Northwind Signature Pasta Pack,GROCERY,2.99,2.04
+SKU-000674,Contoso Pro Rug,HOME,146.99,91.72
+SKU-000675,Summit Eco Camera,ELECTRONICS,62.99,44.34
+SKU-000676,Contoso Essential Dumbbells,SPORTS,31.99,16.62
+SKU-000677,Acme Urban Vacuum,HOME,230.99,114.78
+SKU-000678,Vertex Compact Headphones,ELECTRONICS,381.99,294.15
+SKU-000679,Willow Urban Bluetooth Speaker,ELECTRONICS,46.99,32.34
+SKU-000680,Contoso Pro Keyboard,ELECTRONICS,845.99,523.64
+SKU-000681,Acme Compact T-Shirt,APPAREL,107.99,50.03
+SKU-000682,Harbor Classic Rug,HOME,15.99,7.67
+SKU-000683,Harbor Lite Shampoo,BEAUTY,13.99,5.56
+SKU-000684,Fabrikam Deluxe Plush Toy,TOYS,8.99,4.65
+SKU-000685,Harbor Urban Pasta Pack,GROCERY,11.99,8.50
+SKU-000686,Acme Pro Hair Dryer Kit,BEAUTY,7.99,2.77
+SKU-000687,Orbit Essential Dumbbells,SPORTS,237.99,150.77
+SKU-000688,Summit Classic Shorts,APPAREL,11.99,5.21
+SKU-000689,Northwind Premium Dumbbells,SPORTS,151.99,76.24
+SKU-000690,Northwind Urban Jacket,APPAREL,61.99,31.23
+SKU-000691,Willow Essential Jeans,APPAREL,49.99,23.38
+SKU-000692,Northwind Deluxe Hoodie,APPAREL,11.99,4.79
+SKU-000693,Harbor Eco Sneakers,APPAREL,11.99,5.03
+SKU-000694,Lumen Urban Yoga Mat,SPORTS,45.99,23.34
+SKU-000695,Orbit Deluxe Dress,APPAREL,69.99,30.68
+SKU-000696,Harbor Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-000697,Fabrikam Compact Travel Guide,BOOKS,8.99,6.11
+SKU-000698,Summit Essential Necklace,JEWELRY,113.99,41.26
+SKU-000699,Orbit Lite Hoodie,APPAREL,37.99,18.17
+SKU-000700,Northwind Urban Snack Box,GROCERY,6.99,4.75
+SKU-000701,Willow Essential Keyboard,ELECTRONICS,1148.99,745.79
+SKU-000702,Orbit Eco Keyboard,ELECTRONICS,840.99,612.62
+SKU-000703,Orbit Deluxe Pasta Pack,GROCERY,4.99,3.58
+SKU-000704,Fabrikam Premium Coffee Beans,GROCERY,11.99,8.23
+SKU-000705,Summit Lite Pasta Pack,GROCERY,3.99,2.37
+SKU-000706,Orbit Deluxe Jeans,APPAREL,65.99,33.28
+SKU-000707,Northwind Deluxe Rug,HOME,43.99,27.68
+SKU-000708,Lumen Deluxe Tablet,ELECTRONICS,44.99,35.04
+SKU-000709,Vertex Classic Comic Volume,BOOKS,6.99,4.61
+SKU-000710,Contoso Lite Protein Bars,GROCERY,2.99,1.83
+SKU-000711,Contoso Lite Sweater,APPAREL,83.99,38.46
+SKU-000712,Orbit Lite Lipstick,BEAUTY,12.99,5.87
+SKU-000713,Northwind Pro Camera,ELECTRONICS,258.99,163.91
+SKU-000714,Vertex Deluxe Puzzle,TOYS,126.99,62.01
+SKU-000715,Harbor Classic Dress,APPAREL,24.99,10.53
+SKU-000716,Orbit Lite Tablet,ELECTRONICS,172.99,116.91
+SKU-000717,Fabrikam Urban Green Tea,GROCERY,2.99,1.77
+SKU-000718,Vertex Eco Coffee Beans,GROCERY,30.99,20.18
+SKU-000719,Lumen Classic RC Car,TOYS,45.99,23.29
+SKU-000720,Acme Compact Tennis Racket,SPORTS,259.99,165.03
+SKU-000721,Northwind Compact Plush Toy,TOYS,24.99,10.32
+SKU-000722,Orbit Essential Sweater,APPAREL,22.99,9.59
+SKU-000723,Lumen Lite Pasta Pack,GROCERY,11.99,7.15
+SKU-000724,Vertex Lite Sneakers,APPAREL,11.99,6.44
+SKU-000725,Acme Compact Shorts,APPAREL,59.99,27.13
+SKU-000726,Lumen Eco Comic Volume,BOOKS,30.99,16.34
+SKU-000727,Orbit Classic T-Shirt,APPAREL,17.99,8.53
+SKU-000728,Summit Urban Tennis Racket,SPORTS,23.99,11.53
+SKU-000729,Lumen Compact Lamp,HOME,11.99,7.45
+SKU-000730,Acme Classic Novel,BOOKS,6.99,3.94
+SKU-000731,Harbor Deluxe Hair Dryer Kit,BEAUTY,47.99,18.90
+SKU-000732,Contoso Eco Perfume,BEAUTY,8.99,4.06
+SKU-000733,Northwind Compact Dress,APPAREL,16.99,7.57
+SKU-000734,Fabrikam Pro Jacket,APPAREL,20.99,7.45
+SKU-000735,Harbor Premium Doll House,TOYS,8.99,4.69
+SKU-000736,Acme Compact Doll House,TOYS,18.99,9.53
+SKU-000737,Vertex Pro T-Shirt,APPAREL,91.99,45.55
+SKU-000738,Fabrikam Lite Jeans,APPAREL,132.99,70.93
+SKU-000739,Northwind Eco Sweater,APPAREL,17.99,8.37
+SKU-000740,Harbor Lite Shorts,APPAREL,10.99,5.00
+SKU-000741,Northwind Premium Novel,BOOKS,48.99,26.62
+SKU-000742,Vertex Deluxe Sweater,APPAREL,101.99,48.69
+SKU-000743,Willow Premium Vacuum,HOME,145.99,67.89
+SKU-000744,Orbit Deluxe Cookware Set,HOME,27.99,16.36
+SKU-000745,Northwind Deluxe RC Car,TOYS,13.99,6.44
+SKU-000746,Harbor Signature Coffee Maker,HOME,171.99,93.78
+SKU-000747,Orbit Urban Sneakers,APPAREL,19.99,9.73
+SKU-000748,Harbor Premium Hoodie,APPAREL,42.99,19.19
+SKU-000749,Summit Compact Snack Box,GROCERY,36.99,21.68
+SKU-000750,Orbit Compact Monitor,ELECTRONICS,1285.99,991.06
+SKU-000751,Lumen Premium Blender,HOME,28.99,15.28
+SKU-000752,Northwind Eco Keyboard,ELECTRONICS,1155.99,917.18
+SKU-000753,Fabrikam Signature Monitor,ELECTRONICS,268.99,214.42
+SKU-000754,Lumen Urban Smartwatch,ELECTRONICS,1221.99,816.25
+SKU-000755,Harbor Eco Textbook,BOOKS,10.99,7.17
+SKU-000756,Willow Premium Shorts,APPAREL,11.99,6.05
+SKU-000757,Willow Classic Tablet,ELECTRONICS,371.99,233.44
+SKU-000758,Summit Signature Hoodie,APPAREL,87.99,32.59
+SKU-000759,Willow Signature Smartwatch,ELECTRONICS,255.99,193.99
+SKU-000760,Orbit Deluxe Dress,APPAREL,33.99,13.47
+SKU-000761,Harbor Urban Shampoo,BEAUTY,9.99,4.45
+SKU-000762,Northwind Lite Biography,BOOKS,31.99,20.05
+SKU-000763,Contoso Pro Cookware Set,HOME,55.99,28.96
+SKU-000764,Orbit Classic Moisturizer,BEAUTY,87.99,43.78
+SKU-000765,Willow Deluxe Throw Blanket,HOME,207.99,98.75
+SKU-000766,Summit Premium Coffee Maker,HOME,165.99,101.10
+SKU-000767,Harbor Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-000768,Harbor Essential Smartwatch,ELECTRONICS,276.99,174.03
+SKU-000769,Fabrikam Classic Green Tea,GROCERY,16.99,10.74
+SKU-000770,Vertex Eco Camera,ELECTRONICS,226.99,141.02
+SKU-000771,Northwind Classic Pasta Pack,GROCERY,8.99,5.27
+SKU-000772,Harbor Essential Sneakers,APPAREL,32.99,15.75
+SKU-000773,Orbit Premium Smartwatch,ELECTRONICS,635.99,476.37
+SKU-000774,Fabrikam Compact Shampoo,BEAUTY,24.99,11.09
+SKU-000775,Orbit Compact Face Serum,BEAUTY,16.99,5.88
+SKU-000776,Lumen Premium Dress,APPAREL,87.99,34.45
+SKU-000777,Fabrikam Essential Coffee Beans,GROCERY,3.99,2.49
+SKU-000778,Summit Urban Novel,BOOKS,28.99,17.03
+SKU-000779,Harbor Premium Olive Oil,GROCERY,7.99,5.40
+SKU-000780,Vertex Classic Water Bottle,SPORTS,185.99,94.92
+SKU-000781,Northwind Deluxe Smartwatch,ELECTRONICS,45.99,32.41
+SKU-000782,Fabrikam Compact Cookware Set,HOME,148.99,86.25
+SKU-000783,Orbit Pro Sweater,APPAREL,98.99,39.13
+SKU-000784,Lumen Compact Throw Blanket,HOME,265.99,136.27
+SKU-000785,Harbor Lite Jacket,APPAREL,33.99,18.54
+SKU-000786,Vertex Premium Sneakers,APPAREL,11.99,5.59
+SKU-000787,Orbit Pro Monitor,ELECTRONICS,251.99,193.47
+SKU-000788,Vertex Signature Dumbbells,SPORTS,20.99,13.40
+SKU-000789,Contoso Essential Ring,JEWELRY,99.99,49.86
+SKU-000790,Contoso Lite Cookware Set,HOME,45.99,26.71
+SKU-000791,Vertex Deluxe Smartwatch,ELECTRONICS,114.99,72.14
+SKU-000792,Acme Compact Camera,ELECTRONICS,33.99,24.23
+SKU-000793,Fabrikam Deluxe Cookware Set,HOME,56.99,32.80
+SKU-000794,Summit Premium Sneakers,APPAREL,51.99,25.01
+SKU-000795,Fabrikam Premium Pasta Pack,GROCERY,8.99,5.31
+SKU-000796,Summit Deluxe Moisturizer,BEAUTY,78.99,29.18
+SKU-000797,Lumen Deluxe Board Game,TOYS,17.99,9.26
+SKU-000798,Lumen Pro Coffee Maker,HOME,374.99,228.97
+SKU-000799,Orbit Compact Jeans,APPAREL,10.99,3.85
+SKU-000800,Orbit Urban Jacket,APPAREL,71.99,26.34
+SKU-000801,Northwind Compact RC Car,TOYS,8.99,5.07
+SKU-000802,Northwind Essential Coffee Beans,GROCERY,25.99,16.89
+SKU-000803,Orbit Classic Sweater,APPAREL,47.99,23.53
+SKU-000804,Willow Deluxe Sneakers,APPAREL,67.99,26.89
+SKU-000805,Northwind Premium Snack Box,GROCERY,28.99,16.63
+SKU-000806,Northwind Deluxe Sweater,APPAREL,75.99,35.29
+SKU-000807,Lumen Pro Cookware Set,HOME,159.99,73.47
+SKU-000808,Harbor Urban Sweater,APPAREL,22.99,12.09
+SKU-000809,Fabrikam Essential Dress,APPAREL,140.99,74.53
+SKU-000810,Fabrikam Urban Perfume,BEAUTY,6.99,2.46
+SKU-000811,Lumen Pro T-Shirt,APPAREL,10.99,4.89
+SKU-000812,Acme Compact Bluetooth Speaker,ELECTRONICS,252.99,178.19
+SKU-000813,Orbit Urban Olive Oil,GROCERY,5.99,4.36
+SKU-000814,Orbit Compact Blender,HOME,300.99,150.13
+SKU-000815,Acme Premium Jeans,APPAREL,15.99,6.94
+SKU-000816,Northwind Classic Yoga Mat,SPORTS,21.99,9.91
+SKU-000817,Contoso Essential T-Shirt,APPAREL,50.99,24.36
+SKU-000818,Willow Eco Smartwatch,ELECTRONICS,198.99,141.58
+SKU-000819,Harbor Premium Blender,HOME,88.99,44.35
+SKU-000820,Lumen Premium Vacuum,HOME,369.99,237.56
+SKU-000821,Summit Pro Jacket,APPAREL,68.99,36.00
+SKU-000822,Harbor Deluxe T-Shirt,APPAREL,82.99,30.82
+SKU-000823,Acme Urban Vacuum,HOME,156.99,72.43
+SKU-000824,Northwind Pro Dumbbells,SPORTS,178.99,84.11
+SKU-000825,Summit Urban Watch,JEWELRY,257.99,105.18
+SKU-000826,Contoso Signature Lipstick,BEAUTY,88.99,41.19
+SKU-000827,Willow Premium Jeans,APPAREL,22.99,9.77
+SKU-000828,Orbit Premium RC Car,TOYS,31.99,14.82
+SKU-000829,Orbit Urban Sweater,APPAREL,74.99,27.33
+SKU-000830,Willow Classic Perfume,BEAUTY,71.99,27.55
+SKU-000831,Vertex Pro Moisturizer,BEAUTY,26.99,12.57
+SKU-000832,Vertex Deluxe Blender,HOME,117.99,67.80
+SKU-000833,Fabrikam Pro T-Shirt,APPAREL,17.99,7.60
+SKU-000834,Acme Classic Keyboard,ELECTRONICS,49.99,30.69
+SKU-000835,Orbit Premium Tennis Racket,SPORTS,54.99,32.14
+SKU-000836,Summit Lite Camera,ELECTRONICS,293.99,214.57
+SKU-000837,Acme Urban Hair Dryer Kit,BEAUTY,6.99,3.01
+SKU-000838,Fabrikam Lite Dress,APPAREL,10.99,4.41
+SKU-000839,Acme Eco Protein Bars,GROCERY,18.99,10.50
+SKU-000840,Orbit Lite Bike Helmet,SPORTS,10.99,6.02
+SKU-000841,Vertex Pro Jacket,APPAREL,95.99,38.59
+SKU-000842,Acme Deluxe Bike Helmet,SPORTS,10.99,7.01
+SKU-000843,Harbor Premium Lipstick,BEAUTY,44.99,16.50
+SKU-000844,Willow Compact Keyboard,ELECTRONICS,489.99,316.95
+SKU-000845,Vertex Eco Sweater,APPAREL,102.99,44.84
+SKU-000846,Northwind Classic Sneakers,APPAREL,67.99,35.60
+SKU-000847,Fabrikam Classic Smartwatch,ELECTRONICS,240.99,171.82
+SKU-000848,Fabrikam Lite Biography,BOOKS,12.99,8.67
+SKU-000849,Fabrikam Compact Bluetooth Speaker,ELECTRONICS,1120.99,863.98
+SKU-000850,Willow Premium Biography,BOOKS,8.99,5.74
+SKU-000851,Acme Premium Rug,HOME,25.99,11.71
+SKU-000852,Lumen Premium Water Bottle,SPORTS,184.99,98.55
+SKU-000853,Summit Pro Jeans,APPAREL,64.99,28.49
+SKU-000854,Lumen Compact T-Shirt,APPAREL,12.99,5.40
+SKU-000855,Northwind Urban Sneakers,APPAREL,117.99,41.40
+SKU-000856,Orbit Signature Water Bottle,SPORTS,74.99,40.49
+SKU-000857,Orbit Essential Hair Dryer Kit,BEAUTY,30.99,13.11
+SKU-000858,Acme Premium Bluetooth Speaker,ELECTRONICS,34.99,27.58
+SKU-000859,Summit Premium Textbook,BOOKS,10.99,6.17
+SKU-000860,Northwind Lite Dress,APPAREL,18.99,8.89
+SKU-000861,Contoso Urban Water Bottle,SPORTS,13.99,6.86
+SKU-000862,Fabrikam Deluxe Coffee Maker,HOME,31.99,18.10
+SKU-000863,Northwind Classic Tablet,ELECTRONICS,21.99,13.23
+SKU-000864,Fabrikam Eco Smartwatch,ELECTRONICS,45.99,35.95
+SKU-000865,Vertex Deluxe Vacuum,HOME,31.99,20.13
+SKU-000866,Willow Pro Puzzle,TOYS,46.99,26.74
+SKU-000867,Contoso Classic Throw Blanket,HOME,274.99,130.54
+SKU-000868,Orbit Urban Hoodie,APPAREL,16.99,6.15
+SKU-000869,Lumen Urban Headphones,ELECTRONICS,174.99,125.79
+SKU-000870,Vertex Signature T-Shirt,APPAREL,28.99,14.94
+SKU-000871,Northwind Urban Sneakers,APPAREL,21.99,10.32
+SKU-000872,Vertex Premium Plush Toy,TOYS,17.99,7.52
+SKU-000873,Summit Deluxe Tablet,ELECTRONICS,408.99,278.28
+SKU-000874,Vertex Essential Biography,BOOKS,22.99,15.76
+SKU-000875,Vertex Premium Hair Dryer Kit,BEAUTY,24.99,10.44
+SKU-000876,Summit Classic Building Blocks,TOYS,8.99,4.37
+SKU-000877,Northwind Pro Tablet,ELECTRONICS,606.99,462.63
+SKU-000878,Fabrikam Eco Sweater,APPAREL,19.99,9.41
+SKU-000879,Vertex Lite Shorts,APPAREL,119.99,63.36
+SKU-000880,Acme Premium Coffee Maker,HOME,62.99,34.28
+SKU-000881,Acme Deluxe Sweater,APPAREL,11.99,6.15
+SKU-000882,Northwind Lite Plush Toy,TOYS,57.99,30.08
+SKU-000883,Willow Eco Lipstick,BEAUTY,5.99,2.42
+SKU-000884,Fabrikam Urban Smartwatch,ELECTRONICS,40.99,25.63
+SKU-000885,Orbit Urban Hoodie,APPAREL,21.99,10.91
+SKU-000886,Vertex Signature Cookware Set,HOME,188.99,104.68
+SKU-000887,Acme Signature Cookware Set,HOME,33.99,17.55
+SKU-000888,Lumen Compact Hoodie,APPAREL,49.99,18.99
+SKU-000889,Acme Classic Camera,ELECTRONICS,45.99,32.45
+SKU-000890,Summit Compact Face Serum,BEAUTY,47.99,20.46
+SKU-000891,Contoso Essential Water Bottle,SPORTS,110.99,67.94
+SKU-000892,Vertex Premium Shampoo,BEAUTY,20.99,9.91
+SKU-000893,Fabrikam Signature Tablet,ELECTRONICS,39.99,25.61
+SKU-000894,Harbor Urban Monitor,ELECTRONICS,235.99,149.96
+SKU-000895,Harbor Pro Sweater,APPAREL,145.99,75.19
+SKU-000896,Willow Deluxe Perfume,BEAUTY,5.99,2.46
+SKU-000897,Northwind Signature Tablet,ELECTRONICS,1206.99,752.17
+SKU-000898,Harbor Deluxe Jacket,APPAREL,13.99,7.13
+SKU-000899,Lumen Compact Dress,APPAREL,77.99,30.22
+SKU-000900,Summit Urban Throw Blanket,HOME,198.99,117.14
+SKU-000901,Lumen Lite Lipstick,BEAUTY,7.99,2.95
+SKU-000902,Northwind Pro Shorts,APPAREL,13.99,6.74
+SKU-000903,Willow Urban Hoodie,APPAREL,16.99,6.13
+SKU-000904,Harbor Deluxe Vacuum,HOME,362.99,225.45
+SKU-000905,Summit Pro Hair Dryer Kit,BEAUTY,7.99,3.98
+SKU-000906,Orbit Signature Hoodie,APPAREL,14.99,6.52
+SKU-000907,Fabrikam Eco Cookbook,BOOKS,12.99,7.62
+SKU-000908,Northwind Eco Shorts,APPAREL,105.99,49.74
+SKU-000909,Vertex Deluxe T-Shirt,APPAREL,25.99,10.73
+SKU-000910,Summit Pro Jeans,APPAREL,32.99,17.89
+SKU-000911,Summit Essential Building Blocks,TOYS,46.99,27.92
+SKU-000912,Contoso Classic Hair Dryer Kit,BEAUTY,7.99,3.99
+SKU-000913,Summit Urban Puzzle,TOYS,31.99,13.82
+SKU-000914,Contoso Compact Moisturizer,BEAUTY,16.99,7.82
+SKU-000915,Willow Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-000916,Willow Essential Lamp,HOME,82.99,52.50
+SKU-000917,Lumen Pro Jeans,APPAREL,10.99,5.99
+SKU-000918,Willow Premium Perfume,BEAUTY,64.99,20.12
+SKU-000919,Northwind Compact Water Bottle,SPORTS,150.99,75.27
+SKU-000920,Harbor Essential Monitor,ELECTRONICS,686.99,458.08
+SKU-000921,Acme Signature Travel Guide,BOOKS,24.99,12.67
+SKU-000922,Vertex Urban Bike Helmet,SPORTS,257.99,135.14
+SKU-000923,Northwind Lite Hair Dryer Kit,BEAUTY,14.99,7.38
+SKU-000924,Lumen Urban Textbook,BOOKS,11.99,6.78
+SKU-000925,Orbit Deluxe Pasta Pack,GROCERY,4.99,3.11
+SKU-000926,Willow Eco Tennis Racket,SPORTS,270.99,149.54
+SKU-000927,Northwind Classic Blender,HOME,75.99,39.40
+SKU-000928,Vertex Classic Water Bottle,SPORTS,29.99,17.81
+SKU-000929,Fabrikam Urban Throw Blanket,HOME,12.99,7.10
+SKU-000930,Lumen Compact Textbook,BOOKS,21.99,15.20
+SKU-000931,Willow Premium Hair Dryer Kit,BEAUTY,24.99,7.90
+SKU-000932,Vertex Signature Cookware Set,HOME,23.99,13.98
+SKU-000933,Orbit Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-000934,Willow Premium Lipstick,BEAUTY,55.99,19.54
+SKU-000935,Lumen Essential Sneakers,APPAREL,21.99,11.85
+SKU-000936,Acme Premium RC Car,TOYS,66.99,27.07
+SKU-000937,Willow Lite Hoodie,APPAREL,104.99,45.79
+SKU-000938,Fabrikam Classic Pasta Pack,GROCERY,29.99,20.54
+SKU-000939,Vertex Signature Moisturizer,BEAUTY,19.99,8.67
+SKU-000940,Orbit Urban Comic Volume,BOOKS,22.99,13.89
+SKU-000941,Lumen Eco Travel Guide,BOOKS,22.99,14.59
+SKU-000942,Vertex Deluxe Doll House,TOYS,18.99,9.15
+SKU-000943,Harbor Pro Olive Oil,GROCERY,13.99,9.04
+SKU-000944,Contoso Premium Sneakers,APPAREL,146.99,64.04
+SKU-000945,Orbit Pro Shorts,APPAREL,48.99,21.05
+SKU-000946,Lumen Compact Headphones,ELECTRONICS,23.99,16.31
+SKU-000947,Harbor Compact Throw Blanket,HOME,75.99,44.62
+SKU-000948,Acme Premium Face Serum,BEAUTY,11.99,5.23
+SKU-000949,Lumen Essential Monitor,ELECTRONICS,187.99,123.09
+SKU-000950,Summit Premium Headphones,ELECTRONICS,24.99,18.54
+SKU-000951,Summit Deluxe Sneakers,APPAREL,16.99,8.88
+SKU-000952,Harbor Classic Shorts,APPAREL,18.99,9.48
+SKU-000953,Lumen Essential Throw Blanket,HOME,18.99,9.41
+SKU-000954,Harbor Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-000955,Vertex Premium Cookware Set,HOME,81.99,52.70
+SKU-000956,Acme Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-000957,Northwind Pro Face Serum,BEAUTY,7.99,2.59
+SKU-000958,Contoso Eco Coffee Maker,HOME,10.99,6.05
+SKU-000959,Vertex Lite Sweater,APPAREL,15.99,6.61
+SKU-000960,Acme Signature Dress,APPAREL,16.99,9.02
+SKU-000961,Harbor Deluxe Face Serum,BEAUTY,5.99,2.49
+SKU-000962,Northwind Classic Coffee Maker,HOME,307.99,139.19
+SKU-000963,Northwind Eco Coffee Maker,HOME,56.99,29.26
+SKU-000964,Northwind Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-000965,Acme Eco Monitor,ELECTRONICS,20.99,13.35
+SKU-000966,Lumen Compact Bluetooth Speaker,ELECTRONICS,31.99,19.74
+SKU-000967,Orbit Eco Jacket,APPAREL,15.99,6.28
+SKU-000968,Lumen Pro Lamp,HOME,279.99,147.13
+SKU-000969,Willow Classic Blender,HOME,279.99,178.95
+SKU-000970,Lumen Signature Coffee Beans,GROCERY,5.99,3.31
+SKU-000971,Fabrikam Premium Camera,ELECTRONICS,29.99,19.23
+SKU-000972,Contoso Premium Rug,HOME,23.99,13.95
+SKU-000973,Lumen Eco Dress,APPAREL,42.99,16.26
+SKU-000974,Summit Classic Travel Guide,BOOKS,54.99,28.49
+SKU-000975,Fabrikam Compact Puzzle,TOYS,101.99,56.68
+SKU-000976,Fabrikam Deluxe Tennis Racket,SPORTS,67.99,38.44
+SKU-000977,Acme Pro Rug,HOME,324.99,159.61
+SKU-000978,Northwind Premium Face Serum,BEAUTY,60.99,27.13
+SKU-000979,Harbor Premium Keyboard,ELECTRONICS,24.99,19.20
+SKU-000980,Harbor Premium Dress,APPAREL,46.99,25.75
+SKU-000981,Acme Urban Blender,HOME,25.99,11.95
+SKU-000982,Harbor Deluxe Tablet,ELECTRONICS,681.99,421.69
+SKU-000983,Harbor Lite Shorts,APPAREL,31.99,12.29
+SKU-000984,Lumen Urban Shorts,APPAREL,50.99,21.20
+SKU-000985,Contoso Lite Necklace,JEWELRY,210.99,76.95
+SKU-000986,Acme Urban Tennis Racket,SPORTS,296.99,151.18
+SKU-000987,Fabrikam Compact Dress,APPAREL,58.99,23.87
+SKU-000988,Acme Deluxe Rug,HOME,14.99,7.28
+SKU-000989,Vertex Essential Bracelet,JEWELRY,95.99,38.04
+SKU-000990,Acme Classic Running Shoes,SPORTS,30.99,14.42
+SKU-000991,Orbit Premium Coffee Maker,HOME,294.99,157.22
+SKU-000992,Northwind Eco Sneakers,APPAREL,20.99,10.75
+SKU-000993,Willow Classic Rug,HOME,25.99,13.19
+SKU-000994,Lumen Deluxe Monitor,ELECTRONICS,119.99,90.62
+SKU-000995,Northwind Lite Water Bottle,SPORTS,82.99,45.42
+SKU-000996,Summit Eco Face Serum,BEAUTY,5.99,2.07
+SKU-000997,Northwind Compact Board Game,TOYS,11.99,6.17
+SKU-000998,Acme Compact Sweater,APPAREL,125.99,45.98
+SKU-000999,Harbor Signature Monitor,ELECTRONICS,411.99,248.27
+SKU-001000,Northwind Classic Monitor,ELECTRONICS,102.99,78.84
+SKU-001001,Fabrikam Classic Water Bottle,SPORTS,212.99,101.99
+SKU-001002,Vertex Compact Shorts,APPAREL,77.99,32.00
+SKU-001003,Fabrikam Lite Throw Blanket,HOME,30.99,20.09
+SKU-001004,Summit Eco Dumbbells,SPORTS,20.99,13.51
+SKU-001005,Northwind Classic Dumbbells,SPORTS,242.99,117.65
+SKU-001006,Vertex Compact Coffee Maker,HOME,19.99,10.15
+SKU-001007,Acme Pro Keyboard,ELECTRONICS,61.99,40.32
+SKU-001008,Fabrikam Pro Pasta Pack,GROCERY,18.99,11.57
+SKU-001009,Contoso Essential Jeans,APPAREL,15.99,6.73
+SKU-001010,Summit Deluxe Shorts,APPAREL,47.99,17.47
+SKU-001011,Northwind Classic Dress,APPAREL,16.99,8.88
+SKU-001012,Contoso Pro Hoodie,APPAREL,35.99,19.00
+SKU-001013,Lumen Signature Snack Box,GROCERY,35.99,24.32
+SKU-001014,Orbit Classic Board Game,TOYS,37.99,19.10
+SKU-001015,Lumen Classic Face Serum,BEAUTY,79.99,31.03
+SKU-001016,Vertex Eco Bluetooth Speaker,ELECTRONICS,42.99,28.69
+SKU-001017,Northwind Urban Building Blocks,TOYS,21.99,11.36
+SKU-001018,Northwind Urban Pasta Pack,GROCERY,21.99,14.90
+SKU-001019,Summit Signature Camera,ELECTRONICS,182.99,139.46
+SKU-001020,Summit Essential Running Shoes,SPORTS,15.99,9.26
+SKU-001021,Orbit Eco Lipstick,BEAUTY,40.99,12.68
+SKU-001022,Acme Eco Lamp,HOME,17.99,11.25
+SKU-001023,Acme Urban Bluetooth Speaker,ELECTRONICS,224.99,158.04
+SKU-001024,Contoso Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-001025,Fabrikam Essential Running Shoes,SPORTS,74.99,46.75
+SKU-001026,Northwind Lite Coffee Beans,GROCERY,2.99,1.97
+SKU-001027,Northwind Deluxe Dress,APPAREL,101.99,44.08
+SKU-001028,Summit Pro Yoga Mat,SPORTS,143.99,66.04
+SKU-001029,Summit Eco Snack Box,GROCERY,29.99,21.04
+SKU-001030,Summit Eco Building Blocks,TOYS,22.99,10.24
+SKU-001031,Vertex Compact Plush Toy,TOYS,41.99,20.11
+SKU-001032,Lumen Classic Coffee Maker,HOME,100.99,48.70
+SKU-001033,Summit Classic Hoodie,APPAREL,37.99,17.71
+SKU-001034,Acme Eco Hoodie,APPAREL,34.99,14.21
+SKU-001035,Acme Urban Headphones,ELECTRONICS,27.99,19.71
+SKU-001036,Summit Signature Cookware Set,HOME,102.99,46.70
+SKU-001037,Acme Eco Lamp,HOME,388.99,230.23
+SKU-001038,Fabrikam Premium Headphones,ELECTRONICS,115.99,77.42
+SKU-001039,Lumen Classic Hoodie,APPAREL,41.99,22.60
+SKU-001040,Acme Lite Shorts,APPAREL,10.99,3.85
+SKU-001041,Contoso Eco Bluetooth Speaker,ELECTRONICS,150.99,107.51
+SKU-001042,Willow Deluxe Vacuum,HOME,15.99,10.11
+SKU-001043,Fabrikam Eco Dress,APPAREL,98.99,39.98
+SKU-001044,Summit Signature Jeans,APPAREL,109.99,51.07
+SKU-001045,Vertex Lite T-Shirt,APPAREL,40.99,15.89
+SKU-001046,Northwind Urban Board Game,TOYS,63.99,27.83
+SKU-001047,Fabrikam Signature Dress,APPAREL,17.99,8.33
+SKU-001048,Vertex Deluxe Dress,APPAREL,99.99,44.39
+SKU-001049,Willow Urban Dress,APPAREL,31.99,16.77
+SKU-001050,Acme Deluxe Dumbbells,SPORTS,21.99,13.18
+SKU-001051,Willow Classic Board Game,TOYS,46.99,21.74
+SKU-001052,Vertex Pro Doll House,TOYS,84.99,38.02
+SKU-001053,Acme Classic Bluetooth Speaker,ELECTRONICS,1205.99,746.76
+SKU-001054,Northwind Deluxe Tennis Racket,SPORTS,13.99,8.49
+SKU-001055,Harbor Signature Bluetooth Speaker,ELECTRONICS,41.99,29.80
+SKU-001056,Lumen Classic Olive Oil,GROCERY,2.99,2.15
+SKU-001057,Vertex Pro Lamp,HOME,355.99,192.96
+SKU-001058,Harbor Compact Monitor,ELECTRONICS,24.99,19.02
+SKU-001059,Acme Urban Doll House,TOYS,41.99,23.40
+SKU-001060,Orbit Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-001061,Vertex Signature Green Tea,GROCERY,5.99,4.11
+SKU-001062,Contoso Eco Rug,HOME,10.99,6.77
+SKU-001063,Harbor Urban Vacuum,HOME,70.99,42.68
+SKU-001064,Harbor Pro Moisturizer,BEAUTY,19.99,9.55
+SKU-001065,Northwind Eco Necklace,JEWELRY,80.99,24.44
+SKU-001066,Orbit Classic Coffee Maker,HOME,59.99,27.96
+SKU-001067,Orbit Compact Snack Box,GROCERY,45.99,28.97
+SKU-001068,Willow Compact Cookbook,BOOKS,7.99,4.12
+SKU-001069,Contoso Compact Hoodie,APPAREL,70.99,34.85
+SKU-001070,Contoso Pro Hoodie,APPAREL,33.99,14.77
+SKU-001071,Northwind Essential Shampoo,BEAUTY,7.99,2.59
+SKU-001072,Summit Premium Dress,APPAREL,14.99,5.32
+SKU-001073,Summit Premium Smartwatch,ELECTRONICS,231.99,159.74
+SKU-001074,Fabrikam Compact Shorts,APPAREL,100.99,42.33
+SKU-001075,Lumen Urban Dumbbells,SPORTS,12.99,6.03
+SKU-001076,Vertex Signature Lipstick,BEAUTY,84.99,26.46
+SKU-001077,Contoso Classic Moisturizer,BEAUTY,17.99,7.23
+SKU-001078,Summit Essential Sweater,APPAREL,61.99,32.68
+SKU-001079,Summit Pro Headphones,ELECTRONICS,70.99,53.52
+SKU-001080,Harbor Eco Lamp,HOME,21.99,11.65
+SKU-001081,Northwind Signature Bluetooth Speaker,ELECTRONICS,279.99,189.25
+SKU-001082,Contoso Classic Pasta Pack,GROCERY,42.99,26.05
+SKU-001083,Contoso Essential Hoodie,APPAREL,47.99,22.67
+SKU-001084,Willow Deluxe Smartwatch,ELECTRONICS,149.99,99.19
+SKU-001085,Acme Eco Perfume,BEAUTY,5.99,2.15
+SKU-001086,Willow Compact Comic Volume,BOOKS,14.99,7.67
+SKU-001087,Harbor Premium Dress,APPAREL,144.99,59.26
+SKU-001088,Acme Compact Cookware Set,HOME,222.99,112.55
+SKU-001089,Willow Pro Snack Box,GROCERY,4.99,2.92
+SKU-001090,Orbit Pro Protein Bars,GROCERY,18.99,13.98
+SKU-001091,Fabrikam Signature Pasta Pack,GROCERY,3.99,2.38
+SKU-001092,Contoso Urban Camera,ELECTRONICS,102.99,73.88
+SKU-001093,Fabrikam Urban Coffee Beans,GROCERY,2.99,1.95
+SKU-001094,Summit Classic Keyboard,ELECTRONICS,266.99,189.19
+SKU-001095,Harbor Deluxe Cookbook,BOOKS,26.99,15.97
+SKU-001096,Contoso Eco Keyboard,ELECTRONICS,39.99,30.27
+SKU-001097,Fabrikam Signature Jeans,APPAREL,125.99,64.89
+SKU-001098,Willow Compact Sneakers,APPAREL,16.99,8.12
+SKU-001099,Lumen Classic Jacket,APPAREL,45.99,20.59
+SKU-001100,Fabrikam Premium Tablet,ELECTRONICS,370.99,276.19
+SKU-001101,Contoso Signature Throw Blanket,HOME,13.99,8.86
+SKU-001102,Northwind Deluxe Dress,APPAREL,31.99,15.43
+SKU-001103,Acme Compact Lamp,HOME,74.99,42.72
+SKU-001104,Contoso Compact Throw Blanket,HOME,236.99,115.27
+SKU-001105,Acme Classic Perfume,BEAUTY,10.99,3.37
+SKU-001106,Northwind Urban Coffee Beans,GROCERY,4.99,3.17
+SKU-001107,Willow Essential Puzzle,TOYS,70.99,42.23
+SKU-001108,Contoso Pro Jacket,APPAREL,21.99,10.89
+SKU-001109,Acme Premium Hair Dryer Kit,BEAUTY,12.99,5.49
+SKU-001110,Acme Pro Jacket,APPAREL,69.99,34.00
+SKU-001111,Vertex Classic Dress,APPAREL,48.99,26.07
+SKU-001112,Fabrikam Eco T-Shirt,APPAREL,94.99,35.13
+SKU-001113,Lumen Deluxe Perfume,BEAUTY,7.99,3.81
+SKU-001114,Lumen Lite Olive Oil,GROCERY,2.99,1.70
+SKU-001115,Acme Pro Vacuum,HOME,36.99,18.48
+SKU-001116,Fabrikam Urban T-Shirt,APPAREL,65.99,28.70
+SKU-001117,Harbor Eco Earrings,JEWELRY,59.99,29.11
+SKU-001118,Harbor Deluxe Jeans,APPAREL,96.99,41.60
+SKU-001119,Summit Pro Jeans,APPAREL,12.99,6.38
+SKU-001120,Fabrikam Classic T-Shirt,APPAREL,14.99,6.97
+SKU-001121,Northwind Classic Shorts,APPAREL,24.99,12.89
+SKU-001122,Vertex Classic Smartwatch,ELECTRONICS,516.99,341.90
+SKU-001123,Lumen Deluxe Pasta Pack,GROCERY,2.99,1.66
+SKU-001124,Northwind Deluxe Hoodie,APPAREL,76.99,35.71
+SKU-001125,Contoso Compact Dress,APPAREL,91.99,34.62
+SKU-001126,Summit Classic Sweater,APPAREL,65.99,24.59
+SKU-001127,Fabrikam Urban Jacket,APPAREL,122.99,48.73
+SKU-001128,Lumen Essential Shampoo,BEAUTY,14.99,6.03
+SKU-001129,Northwind Premium Jeans,APPAREL,80.99,34.31
+SKU-001130,Harbor Signature Rug,HOME,69.99,40.49
+SKU-001131,Orbit Signature Bluetooth Speaker,ELECTRONICS,272.99,193.61
+SKU-001132,Harbor Pro Monitor,ELECTRONICS,609.99,479.27
+SKU-001133,Orbit Deluxe Bike Helmet,SPORTS,30.99,17.64
+SKU-001134,Willow Pro Dress,APPAREL,112.99,42.03
+SKU-001135,Acme Premium Jacket,APPAREL,11.99,5.60
+SKU-001136,Vertex Urban Headphones,ELECTRONICS,65.99,49.29
+SKU-001137,Vertex Deluxe Travel Guide,BOOKS,22.99,13.37
+SKU-001138,Lumen Classic Hoodie,APPAREL,15.99,8.11
+SKU-001139,Orbit Compact Moisturizer,BEAUTY,24.99,10.93
+SKU-001140,Willow Urban Bluetooth Speaker,ELECTRONICS,54.99,36.78
+SKU-001141,Acme Compact Vacuum,HOME,78.99,49.12
+SKU-001142,Acme Premium Face Serum,BEAUTY,50.99,22.37
+SKU-001143,Summit Signature Doll House,TOYS,34.99,20.31
+SKU-001144,Harbor Essential Yoga Mat,SPORTS,19.99,11.48
+SKU-001145,Northwind Pro Face Serum,BEAUTY,17.99,8.36
+SKU-001146,Lumen Lite Hoodie,APPAREL,54.99,19.37
+SKU-001147,Fabrikam Signature Smartwatch,ELECTRONICS,230.99,158.10
+SKU-001148,Northwind Premium RC Car,TOYS,9.99,4.19
+SKU-001149,Northwind Eco Jacket,APPAREL,50.99,18.71
+SKU-001150,Contoso Eco Running Shoes,SPORTS,18.99,10.48
+SKU-001151,Northwind Urban Comic Volume,BOOKS,18.99,12.37
+SKU-001152,Contoso Eco Cookware Set,HOME,240.99,156.22
+SKU-001153,Contoso Essential T-Shirt,APPAREL,38.99,17.40
+SKU-001154,Orbit Compact Dress,APPAREL,135.99,72.26
+SKU-001155,Acme Eco Comic Volume,BOOKS,7.99,4.84
+SKU-001156,Contoso Eco Bracelet,JEWELRY,296.99,134.52
+SKU-001157,Lumen Lite T-Shirt,APPAREL,26.99,9.76
+SKU-001158,Lumen Lite T-Shirt,APPAREL,61.99,33.50
+SKU-001159,Willow Classic Building Blocks,TOYS,115.99,51.73
+SKU-001160,Summit Compact T-Shirt,APPAREL,24.99,13.08
+SKU-001161,Harbor Premium Sneakers,APPAREL,77.99,35.65
+SKU-001162,Lumen Lite Tablet,ELECTRONICS,58.99,37.51
+SKU-001163,Northwind Essential Pasta Pack,GROCERY,41.99,27.43
+SKU-001164,Northwind Compact Hoodie,APPAREL,38.99,20.90
+SKU-001165,Harbor Deluxe Sneakers,APPAREL,92.99,41.83
+SKU-001166,Harbor Deluxe Yoga Mat,SPORTS,18.99,11.55
+SKU-001167,Summit Compact Earrings,JEWELRY,95.99,32.02
+SKU-001168,Acme Deluxe Vacuum,HOME,77.99,37.08
+SKU-001169,Fabrikam Premium Protein Bars,GROCERY,5.99,3.30
+SKU-001170,Fabrikam Essential Puzzle,TOYS,34.99,16.80
+SKU-001171,Northwind Signature Building Blocks,TOYS,14.99,7.79
+SKU-001172,Harbor Eco Lipstick,BEAUTY,29.99,13.67
+SKU-001173,Harbor Lite Shampoo,BEAUTY,7.99,3.36
+SKU-001174,Fabrikam Lite Plush Toy,TOYS,43.99,21.38
+SKU-001175,Acme Compact Shorts,APPAREL,37.99,16.06
+SKU-001176,Vertex Classic Face Serum,BEAUTY,15.99,6.54
+SKU-001177,Acme Classic Blender,HOME,15.99,8.02
+SKU-001178,Summit Classic Coffee Maker,HOME,21.99,12.41
+SKU-001179,Orbit Compact Jacket,APPAREL,11.99,6.48
+SKU-001180,Fabrikam Deluxe Pasta Pack,GROCERY,26.99,17.87
+SKU-001181,Orbit Classic Jeans,APPAREL,12.99,5.90
+SKU-001182,Harbor Essential Watch,JEWELRY,31.99,15.25
+SKU-001183,Orbit Compact Shorts,APPAREL,23.99,10.09
+SKU-001184,Contoso Premium Tablet,ELECTRONICS,30.99,18.85
+SKU-001185,Northwind Premium Shampoo,BEAUTY,31.99,12.21
+SKU-001186,Acme Signature Monitor,ELECTRONICS,602.99,366.67
+SKU-001187,Summit Compact Monitor,ELECTRONICS,96.99,75.87
+SKU-001188,Lumen Urban Throw Blanket,HOME,15.99,10.23
+SKU-001189,Vertex Compact Jeans,APPAREL,45.99,24.21
+SKU-001190,Northwind Compact Sneakers,APPAREL,10.99,4.57
+SKU-001191,Fabrikam Deluxe Comic Volume,BOOKS,24.99,13.27
+SKU-001192,Vertex Deluxe Sweater,APPAREL,17.99,7.91
+SKU-001193,Acme Premium Sneakers,APPAREL,15.99,8.48
+SKU-001194,Northwind Classic Shorts,APPAREL,141.99,57.01
+SKU-001195,Orbit Signature Dress,APPAREL,16.99,8.17
+SKU-001196,Summit Pro Lipstick,BEAUTY,26.99,10.57
+SKU-001197,Lumen Eco Coffee Maker,HOME,206.99,124.72
+SKU-001198,Northwind Urban Building Blocks,TOYS,14.99,6.44
+SKU-001199,Vertex Classic Doll House,TOYS,16.99,8.60
+SKU-001200,Orbit Eco T-Shirt,APPAREL,11.99,6.33
+SKU-001201,Vertex Signature Hoodie,APPAREL,45.99,21.95
+SKU-001202,Summit Signature Smartwatch,ELECTRONICS,293.99,185.72
+SKU-001203,Fabrikam Urban Shampoo,BEAUTY,6.99,3.45
+SKU-001204,Northwind Pro Sneakers,APPAREL,130.99,46.39
+SKU-001205,Vertex Urban Smartwatch,ELECTRONICS,101.99,68.88
+SKU-001206,Northwind Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-001207,Harbor Premium Keyboard,ELECTRONICS,158.99,96.84
+SKU-001208,Lumen Essential Dress,APPAREL,84.99,37.22
+SKU-001209,Vertex Premium Sneakers,APPAREL,53.99,20.19
+SKU-001210,Northwind Deluxe Headphones,ELECTRONICS,1256.99,779.04
+SKU-001211,Fabrikam Classic Olive Oil,GROCERY,38.99,22.15
+SKU-001212,Summit Compact Bike Helmet,SPORTS,265.99,147.19
+SKU-001213,Summit Lite Hoodie,APPAREL,38.99,13.79
+SKU-001214,Summit Essential Necklace,JEWELRY,454.99,155.46
+SKU-001215,Willow Pro Building Blocks,TOYS,11.99,7.12
+SKU-001216,Contoso Lite Blender,HOME,20.99,11.22
+SKU-001217,Orbit Lite Lamp,HOME,323.99,165.44
+SKU-001218,Vertex Premium Running Shoes,SPORTS,47.99,24.83
+SKU-001219,Acme Classic Sweater,APPAREL,23.99,10.30
+SKU-001220,Northwind Pro Shorts,APPAREL,10.99,5.35
+SKU-001221,Lumen Deluxe Bike Helmet,SPORTS,31.99,18.05
+SKU-001222,Harbor Eco Puzzle,TOYS,31.99,16.80
+SKU-001223,Summit Signature Building Blocks,TOYS,48.99,27.62
+SKU-001224,Harbor Eco Travel Guide,BOOKS,23.99,14.96
+SKU-001225,Willow Essential Building Blocks,TOYS,96.99,51.14
+SKU-001226,Fabrikam Compact Perfume,BEAUTY,9.99,3.01
+SKU-001227,Orbit Signature Rug,HOME,17.99,10.82
+SKU-001228,Northwind Classic T-Shirt,APPAREL,16.99,6.39
+SKU-001229,Acme Premium Biography,BOOKS,58.99,35.70
+SKU-001230,Willow Essential Novel,BOOKS,26.99,13.75
+SKU-001231,Willow Compact Hair Dryer Kit,BEAUTY,66.99,20.96
+SKU-001232,Northwind Premium Yoga Mat,SPORTS,17.99,11.57
+SKU-001233,Fabrikam Compact Blender,HOME,290.99,182.83
+SKU-001234,Willow Pro T-Shirt,APPAREL,22.99,10.78
+SKU-001235,Orbit Lite Perfume,BEAUTY,9.99,4.75
+SKU-001236,Vertex Premium Monitor,ELECTRONICS,264.99,175.77
+SKU-001237,Harbor Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-001238,Northwind Signature Dress,APPAREL,122.99,57.64
+SKU-001239,Fabrikam Deluxe Blender,HOME,52.99,27.06
+SKU-001240,Contoso Classic Vacuum,HOME,34.99,20.05
+SKU-001241,Northwind Compact Lamp,HOME,68.99,36.23
+SKU-001242,Fabrikam Pro Vacuum,HOME,58.99,30.25
+SKU-001243,Summit Premium Pasta Pack,GROCERY,4.99,2.75
+SKU-001244,Northwind Pro Bike Helmet,SPORTS,68.99,35.60
+SKU-001245,Acme Signature Plush Toy,TOYS,38.99,15.80
+SKU-001246,Acme Classic Jeans,APPAREL,32.99,15.96
+SKU-001247,Northwind Classic Cookware Set,HOME,41.99,21.48
+SKU-001248,Fabrikam Compact Textbook,BOOKS,14.99,7.72
+SKU-001249,Northwind Signature Comic Volume,BOOKS,23.99,12.21
+SKU-001250,Fabrikam Urban Sweater,APPAREL,94.99,44.64
+SKU-001251,Northwind Essential Bracelet,JEWELRY,31.99,10.13
+SKU-001252,Harbor Compact Jacket,APPAREL,41.99,18.49
+SKU-001253,Orbit Signature Moisturizer,BEAUTY,15.99,6.71
+SKU-001254,Summit Classic Blender,HOME,193.99,98.34
+SKU-001255,Harbor Classic Biography,BOOKS,39.99,24.71
+SKU-001256,Willow Lite Dress,APPAREL,119.99,48.52
+SKU-001257,Fabrikam Compact Dress,APPAREL,17.99,8.79
+SKU-001258,Northwind Signature Shampoo,BEAUTY,20.99,8.05
+SKU-001259,Acme Signature Biography,BOOKS,38.99,21.68
+SKU-001260,Acme Essential T-Shirt,APPAREL,44.99,20.96
+SKU-001261,Fabrikam Essential Jeans,APPAREL,12.99,6.62
+SKU-001262,Harbor Urban Bike Helmet,SPORTS,92.99,51.32
+SKU-001263,Acme Compact Water Bottle,SPORTS,34.99,15.92
+SKU-001264,Willow Urban Biography,BOOKS,9.99,6.00
+SKU-001265,Acme Deluxe T-Shirt,APPAREL,19.99,9.98
+SKU-001266,Harbor Deluxe Cookware Set,HOME,347.99,176.67
+SKU-001267,Harbor Premium Travel Guide,BOOKS,14.99,8.86
+SKU-001268,Acme Premium Perfume,BEAUTY,29.99,14.73
+SKU-001269,Willow Essential Biography,BOOKS,21.99,13.51
+SKU-001270,Orbit Deluxe T-Shirt,APPAREL,39.99,15.37
+SKU-001271,Acme Pro Sweater,APPAREL,39.99,20.16
+SKU-001272,Lumen Lite Novel,BOOKS,29.99,19.54
+SKU-001273,Lumen Deluxe T-Shirt,APPAREL,12.99,6.25
+SKU-001274,Orbit Premium Jeans,APPAREL,16.99,8.61
+SKU-001275,Summit Pro Smartwatch,ELECTRONICS,1023.99,634.27
+SKU-001276,Summit Essential Headphones,ELECTRONICS,78.99,59.27
+SKU-001277,Vertex Premium Jeans,APPAREL,79.99,43.86
+SKU-001278,Lumen Deluxe T-Shirt,APPAREL,44.99,17.11
+SKU-001279,Vertex Signature Hair Dryer Kit,BEAUTY,10.99,5.22
+SKU-001280,Willow Premium Textbook,BOOKS,55.99,38.42
+SKU-001281,Acme Signature Keyboard,ELECTRONICS,524.99,342.27
+SKU-001282,Vertex Classic Cookware Set,HOME,15.99,8.26
+SKU-001283,Orbit Compact T-Shirt,APPAREL,73.99,28.86
+SKU-001284,Northwind Deluxe Rug,HOME,20.99,11.19
+SKU-001285,Acme Compact Jeans,APPAREL,28.99,13.58
+SKU-001286,Vertex Compact Sweater,APPAREL,31.99,14.89
+SKU-001287,Fabrikam Compact Dress,APPAREL,58.99,27.56
+SKU-001288,Willow Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-001289,Vertex Deluxe Dress,APPAREL,102.99,53.35
+SKU-001290,Willow Compact Lipstick,BEAUTY,85.99,37.52
+SKU-001291,Harbor Premium Bike Helmet,SPORTS,11.99,5.52
+SKU-001292,Summit Urban Bike Helmet,SPORTS,185.99,103.44
+SKU-001293,Contoso Urban Smartwatch,ELECTRONICS,239.99,156.23
+SKU-001294,Willow Lite Perfume,BEAUTY,8.99,3.11
+SKU-001295,Willow Premium Shampoo,BEAUTY,9.99,4.87
+SKU-001296,Lumen Classic Olive Oil,GROCERY,36.99,22.83
+SKU-001297,Contoso Premium Shampoo,BEAUTY,79.99,25.15
+SKU-001298,Northwind Classic Running Shoes,SPORTS,46.99,22.91
+SKU-001299,Acme Pro Bluetooth Speaker,ELECTRONICS,295.99,232.34
+SKU-001300,Lumen Compact Building Blocks,TOYS,98.99,45.03
+SKU-001301,Summit Essential Face Serum,BEAUTY,67.99,20.94
+SKU-001302,Contoso Signature Jacket,APPAREL,145.99,77.87
+SKU-001303,Northwind Compact Pasta Pack,GROCERY,21.99,15.24
+SKU-001304,Vertex Eco Tennis Racket,SPORTS,12.99,6.25
+SKU-001305,Lumen Compact Shampoo,BEAUTY,36.99,13.81
+SKU-001306,Harbor Urban Jeans,APPAREL,27.99,12.71
+SKU-001307,Lumen Classic Dress,APPAREL,32.99,16.63
+SKU-001308,Fabrikam Urban Blender,HOME,43.99,21.16
+SKU-001309,Lumen Signature Water Bottle,SPORTS,40.99,21.45
+SKU-001310,Vertex Eco Rug,HOME,20.99,13.19
+SKU-001311,Willow Lite Doll House,TOYS,20.99,9.52
+SKU-001312,Willow Urban Yoga Mat,SPORTS,10.99,5.66
+SKU-001313,Northwind Pro Textbook,BOOKS,14.99,9.02
+SKU-001314,Northwind Signature Hoodie,APPAREL,87.99,35.70
+SKU-001315,Contoso Urban Hoodie,APPAREL,105.99,45.86
+SKU-001316,Harbor Urban Pasta Pack,GROCERY,13.99,9.19
+SKU-001317,Contoso Signature Travel Guide,BOOKS,18.99,11.68
+SKU-001318,Northwind Lite Jeans,APPAREL,19.99,9.09
+SKU-001319,Northwind Eco Jeans,APPAREL,11.99,6.52
+SKU-001320,Northwind Urban Cookbook,BOOKS,21.99,12.96
+SKU-001321,Acme Deluxe Rug,HOME,10.99,5.88
+SKU-001322,Contoso Urban Sneakers,APPAREL,46.99,22.93
+SKU-001323,Acme Signature Tablet,ELECTRONICS,579.99,351.67
+SKU-001324,Northwind Premium Shorts,APPAREL,24.99,10.55
+SKU-001325,Northwind Gift Card $200,GIFT_CARD,200.00,200.00
+SKU-001326,Summit Pro Biography,BOOKS,13.99,7.70
+SKU-001327,Fabrikam Deluxe Perfume,BEAUTY,9.99,3.68
+SKU-001328,Lumen Eco Coffee Beans,GROCERY,44.99,27.68
+SKU-001329,Northwind Eco Coffee Beans,GROCERY,10.99,8.19
+SKU-001330,Harbor Signature Water Bottle,SPORTS,53.99,30.51
+SKU-001331,Orbit Premium Board Game,TOYS,20.99,12.08
+SKU-001332,Willow Signature Dress,APPAREL,57.99,24.19
+SKU-001333,Acme Urban T-Shirt,APPAREL,73.99,36.70
+SKU-001334,Orbit Urban Textbook,BOOKS,37.99,21.53
+SKU-001335,Harbor Compact Doll House,TOYS,128.99,57.62
+SKU-001336,Summit Signature Snack Box,GROCERY,26.99,19.67
+SKU-001337,Lumen Eco Textbook,BOOKS,7.99,4.08
+SKU-001338,Acme Eco Monitor,ELECTRONICS,317.99,227.60
+SKU-001339,Summit Signature Jeans,APPAREL,13.99,5.52
+SKU-001340,Harbor Eco Headphones,ELECTRONICS,289.99,174.97
+SKU-001341,Vertex Lite Shampoo,BEAUTY,6.99,2.80
+SKU-001342,Contoso Urban Running Shoes,SPORTS,89.99,46.28
+SKU-001343,Acme Premium Perfume,BEAUTY,17.99,6.66
+SKU-001344,Orbit Premium Sneakers,APPAREL,25.99,11.10
+SKU-001345,Acme Lite Doll House,TOYS,59.99,33.69
+SKU-001346,Lumen Eco Dumbbells,SPORTS,213.99,108.46
+SKU-001347,Contoso Compact Lipstick,BEAUTY,8.99,4.46
+SKU-001348,Orbit Pro Water Bottle,SPORTS,65.99,40.18
+SKU-001349,Willow Classic Smartwatch,ELECTRONICS,73.99,58.09
+SKU-001350,Lumen Eco Earrings,JEWELRY,42.99,18.26
+SKU-001351,Contoso Classic Face Serum,BEAUTY,14.99,7.26
+SKU-001352,Willow Signature Watch,JEWELRY,251.99,101.65
+SKU-001353,Lumen Compact Throw Blanket,HOME,73.99,47.71
+SKU-001354,Summit Premium T-Shirt,APPAREL,22.99,9.58
+SKU-001355,Harbor Urban Sneakers,APPAREL,10.99,5.33
+SKU-001356,Orbit Compact Water Bottle,SPORTS,156.99,91.00
+SKU-001357,Acme Lite Sweater,APPAREL,75.99,41.42
+SKU-001358,Harbor Premium Shorts,APPAREL,80.99,39.22
+SKU-001359,Summit Eco Sweater,APPAREL,20.99,8.35
+SKU-001360,Vertex Compact Sweater,APPAREL,20.99,9.32
+SKU-001361,Contoso Signature Running Shoes,SPORTS,30.99,15.36
+SKU-001362,Harbor Compact Blender,HOME,84.99,43.40
+SKU-001363,Vertex Premium Hoodie,APPAREL,11.99,4.79
+SKU-001364,Contoso Essential Vacuum,HOME,331.99,209.36
+SKU-001365,Willow Pro Puzzle,TOYS,20.99,10.08
+SKU-001366,Acme Premium Headphones,ELECTRONICS,717.99,533.47
+SKU-001367,Contoso Eco Lamp,HOME,305.99,177.92
+SKU-001368,Acme Lite T-Shirt,APPAREL,13.99,7.42
+SKU-001369,Lumen Urban Headphones,ELECTRONICS,238.99,160.33
+SKU-001370,Willow Deluxe Blender,HOME,69.99,38.34
+SKU-001371,Harbor Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-001372,Acme Pro Coffee Maker,HOME,39.99,20.03
+SKU-001373,Lumen Lite Jacket,APPAREL,72.99,32.55
+SKU-001374,Orbit Urban Board Game,TOYS,60.99,34.92
+SKU-001375,Summit Essential Keyboard,ELECTRONICS,983.99,718.10
+SKU-001376,Summit Pro Textbook,BOOKS,24.99,14.78
+SKU-001377,Fabrikam Signature Plush Toy,TOYS,8.99,4.40
+SKU-001378,Acme Premium Vacuum,HOME,161.99,75.07
+SKU-001379,Vertex Classic Jacket,APPAREL,21.99,11.80
+SKU-001380,Fabrikam Lite Sweater,APPAREL,113.99,53.49
+SKU-001381,Lumen Deluxe Blender,HOME,22.99,13.99
+SKU-001382,Acme Signature Dress,APPAREL,13.99,6.46
+SKU-001383,Willow Signature Jeans,APPAREL,44.99,18.88
+SKU-001384,Harbor Essential Jacket,APPAREL,65.99,27.52
+SKU-001385,Lumen Lite Camera,ELECTRONICS,709.99,463.89
+SKU-001386,Willow Urban Camera,ELECTRONICS,204.99,148.67
+SKU-001387,Lumen Urban Dumbbells,SPORTS,92.99,46.40
+SKU-001388,Summit Eco Hair Dryer Kit,BEAUTY,76.99,33.07
+SKU-001389,Vertex Eco Running Shoes,SPORTS,12.99,7.21
+SKU-001390,Willow Signature Tennis Racket,SPORTS,33.99,15.99
+SKU-001391,Orbit Premium Jeans,APPAREL,52.99,23.50
+SKU-001392,Contoso Eco Jeans,APPAREL,142.99,70.56
+SKU-001393,Northwind Pro Sweater,APPAREL,14.99,6.11
+SKU-001394,Acme Signature Bluetooth Speaker,ELECTRONICS,885.99,558.68
+SKU-001395,Fabrikam Classic Jacket,APPAREL,143.99,77.78
+SKU-001396,Contoso Pro Bluetooth Speaker,ELECTRONICS,473.99,356.31
+SKU-001397,Lumen Lite Dress,APPAREL,43.99,17.27
+SKU-001398,Fabrikam Compact Coffee Beans,GROCERY,3.99,2.78
+SKU-001399,Summit Gift Card $50,GIFT_CARD,50.00,50.00
+SKU-001400,Summit Essential Headphones,ELECTRONICS,151.99,93.27
+SKU-001401,Fabrikam Gift Card $100,GIFT_CARD,100.00,100.00
+SKU-001402,Willow Eco Throw Blanket,HOME,86.99,45.44
+SKU-001403,Harbor Deluxe T-Shirt,APPAREL,25.99,9.22
+SKU-001404,Willow Essential Tablet,ELECTRONICS,1051.99,810.52
+SKU-001405,Willow Pro Dress,APPAREL,76.99,33.36
+SKU-001406,Willow Urban RC Car,TOYS,9.99,5.75
+SKU-001407,Fabrikam Eco Shorts,APPAREL,21.99,9.71
+SKU-001408,Contoso Signature Earrings,JEWELRY,32.99,11.47
+SKU-001409,Summit Eco Snack Box,GROCERY,44.99,30.70
+SKU-001410,Northwind Urban Perfume,BEAUTY,22.99,7.36
+SKU-001411,Summit Lite Watch,JEWELRY,96.99,47.93
+SKU-001412,Contoso Eco Blender,HOME,23.99,11.75
+SKU-001413,Northwind Essential Jeans,APPAREL,75.99,39.34
+SKU-001414,Summit Compact Headphones,ELECTRONICS,404.99,304.25
+SKU-001415,Harbor Eco Dumbbells,SPORTS,109.99,55.54
+SKU-001416,Vertex Compact Novel,BOOKS,20.99,11.01
+SKU-001417,Lumen Urban Textbook,BOOKS,22.99,12.76
+SKU-001418,Summit Signature Running Shoes,SPORTS,19.99,10.21
+SKU-001419,Vertex Signature Textbook,BOOKS,22.99,16.01
+SKU-001420,Orbit Urban Monitor,ELECTRONICS,1098.99,838.88
+SKU-001421,Fabrikam Essential T-Shirt,APPAREL,24.99,10.42
+SKU-001422,Summit Premium Tablet,ELECTRONICS,63.99,40.74
+SKU-001423,Orbit Essential Headphones,ELECTRONICS,158.99,126.16
+SKU-001424,Fabrikam Lite Hoodie,APPAREL,70.99,30.64
+SKU-001425,Lumen Essential Bluetooth Speaker,ELECTRONICS,118.99,85.66
+SKU-001426,Lumen Compact Yoga Mat,SPORTS,298.99,176.62
+SKU-001427,Fabrikam Classic Shorts,APPAREL,20.99,9.68
+SKU-001428,Lumen Urban Headphones,ELECTRONICS,91.99,56.49
+SKU-001429,Summit Essential Dress,APPAREL,44.99,18.16
+SKU-001430,Vertex Signature Vacuum,HOME,85.99,39.53
+SKU-001431,Contoso Essential Puzzle,TOYS,10.99,4.45
+SKU-001432,Summit Signature Necklace,JEWELRY,43.99,21.45
+SKU-001433,Orbit Signature Sneakers,APPAREL,24.99,13.44
+SKU-001434,Contoso Classic Hair Dryer Kit,BEAUTY,11.99,4.41
+SKU-001435,Northwind Eco Smartwatch,ELECTRONICS,521.99,375.25
+SKU-001436,Orbit Deluxe Tablet,ELECTRONICS,1048.99,796.50
+SKU-001437,Contoso Premium Cookware Set,HOME,321.99,173.31
+SKU-001438,Contoso Essential Jeans,APPAREL,42.99,22.28
+SKU-001439,Willow Deluxe Jacket,APPAREL,26.99,10.71
+SKU-001440,Harbor Urban Hoodie,APPAREL,143.99,66.42
+SKU-001441,Willow Eco Tennis Racket,SPORTS,103.99,62.84
+SKU-001442,Northwind Essential Doll House,TOYS,16.99,10.02
+SKU-001443,Acme Premium Camera,ELECTRONICS,966.99,731.82
+SKU-001444,Harbor Premium Jacket,APPAREL,53.99,28.14
+SKU-001445,Willow Compact T-Shirt,APPAREL,13.99,7.57
+SKU-001446,Fabrikam Classic RC Car,TOYS,21.99,10.37
+SKU-001447,Summit Compact Hoodie,APPAREL,11.99,5.03
+SKU-001448,Harbor Deluxe T-Shirt,APPAREL,31.99,13.96
+SKU-001449,Orbit Signature Green Tea,GROCERY,48.99,36.70
+SKU-001450,Contoso Deluxe Smartwatch,ELECTRONICS,62.99,42.56
+SKU-001451,Northwind Essential Moisturizer,BEAUTY,26.99,9.41
+SKU-001452,Summit Urban Sweater,APPAREL,30.99,11.29
+SKU-001453,Harbor Lite Coffee Maker,HOME,161.99,86.60
+SKU-001454,Harbor Eco Keyboard,ELECTRONICS,167.99,106.28
+SKU-001455,Summit Urban Headphones,ELECTRONICS,151.99,118.76
+SKU-001456,Acme Deluxe Bluetooth Speaker,ELECTRONICS,409.99,250.97
+SKU-001457,Willow Compact Bike Helmet,SPORTS,40.99,22.15
+SKU-001458,Fabrikam Compact Necklace,JEWELRY,57.99,23.99
+SKU-001459,Willow Eco Jeans,APPAREL,145.99,78.01
+SKU-001460,Willow Essential Jacket,APPAREL,26.99,14.44
+SKU-001461,Lumen Essential Sweater,APPAREL,17.99,7.27
+SKU-001462,Contoso Compact Throw Blanket,HOME,24.99,11.71
+SKU-001463,Northwind Essential Hair Dryer Kit,BEAUTY,21.99,7.39
+SKU-001464,Contoso Compact Running Shoes,SPORTS,13.99,7.35
+SKU-001465,Acme Deluxe Dress,APPAREL,46.99,24.71
+SKU-001466,Summit Eco Olive Oil,GROCERY,20.99,14.98
+SKU-001467,Contoso Classic Coffee Maker,HOME,105.99,61.47
+SKU-001468,Harbor Lite Camera,ELECTRONICS,512.99,356.85
+SKU-001469,Lumen Essential Sneakers,APPAREL,12.99,5.08
+SKU-001470,Lumen Compact Puzzle,TOYS,132.99,58.46
+SKU-001471,Vertex Eco Hoodie,APPAREL,67.99,31.95
+SKU-001472,Summit Deluxe Sweater,APPAREL,46.99,21.48
+SKU-001473,Orbit Urban Puzzle,TOYS,42.99,22.83
+SKU-001474,Acme Gift Card $25,GIFT_CARD,25.00,25.00
+SKU-001475,Summit Signature Shampoo,BEAUTY,12.99,3.93
+SKU-001476,Summit Premium Throw Blanket,HOME,20.99,12.24
+SKU-001477,Fabrikam Classic Hair Dryer Kit,BEAUTY,12.99,5.75
+SKU-001478,Summit Signature Earrings,JEWELRY,223.99,92.66
+SKU-001479,Willow Classic Cookbook,BOOKS,6.99,3.78
+SKU-001480,Summit Essential Water Bottle,SPORTS,62.99,37.46
+SKU-001481,Northwind Premium Olive Oil,GROCERY,34.99,22.15
+SKU-001482,Orbit Urban Sweater,APPAREL,27.99,14.42
+SKU-001483,Willow Deluxe Green Tea,GROCERY,17.99,12.32
+SKU-001484,Northwind Eco Tablet,ELECTRONICS,781.99,511.97
+SKU-001485,Orbit Lite Yoga Mat,SPORTS,106.99,63.89
+SKU-001486,Acme Deluxe Building Blocks,TOYS,40.99,18.93
+SKU-001487,Acme Essential Dumbbells,SPORTS,12.99,7.81
+SKU-001488,Northwind Deluxe Doll House,TOYS,51.99,29.63
+SKU-001489,Orbit Essential Snack Box,GROCERY,6.99,4.73
+SKU-001490,Harbor Eco Rug,HOME,15.99,9.06
+SKU-001491,Contoso Essential Olive Oil,GROCERY,5.99,3.35
+SKU-001492,Vertex Eco Sneakers,APPAREL,40.99,19.85
+SKU-001493,Acme Compact Camera,ELECTRONICS,804.99,610.78
+SKU-001494,Summit Premium Comic Volume,BOOKS,18.99,11.02
+SKU-001495,Acme Deluxe Cookware Set,HOME,35.99,20.17
+SKU-001496,Contoso Lite Headphones,ELECTRONICS,650.99,475.21
+SKU-001497,Lumen Urban T-Shirt,APPAREL,17.99,9.56
+SKU-001498,Acme Deluxe Shorts,APPAREL,62.99,33.57
+SKU-001499,Lumen Premium Tablet,ELECTRONICS,156.99,109.79
+SKU-001500,Lumen Pro Sneakers,APPAREL,17.99,7.12

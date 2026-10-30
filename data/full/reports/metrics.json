@@ -1,0 +1,216 @@
+{
+  "volume": {
+    "customers": 12000,
+    "sales_orders": 30000,
+    "exchange_orders": 967,
+    "order_lines": 60764,
+    "units_sold": 83559,
+    "return_requests": 5000,
+    "return_lines": 8000,
+    "status_events": 139843
+  },
+  "returns": {
+    "order_return_rate_pct": 15.92,
+    "unit_return_rate_pct": 12.5,
+    "line_approval_rate_pct": 83.75,
+    "authorization_status": {
+      "AUTHORIZED": 3848,
+      "PARTIALLY_AUTHORIZED": 606,
+      "REJECTED": 538
+    },
+    "decision_reasons": {
+      "WITHIN_POLICY": 6601,
+      "REJECT_EXCLUDED_CATEGORY": 205,
+      "REJECT_FINAL_SALE": 285,
+      "REJECT_HYGIENE_OPENED": 110,
+      "QTY_CAPPED": 88,
+      "REJECT_QTY_EXCEEDS_PURCHASED": 181,
+      "REJECT_LATE": 517
+    },
+    "resolution_requested": {
+      "REFUND": 3360,
+      "EXCHANGE": 1331,
+      "STORE_CREDIT": 309
+    },
+    "pending_decision": 8
+  },
+  "categories": [
+    {
+      "category": "APPAREL",
+      "units_sold": 26767,
+      "return_lines": 3605,
+      "units_requested": 5084,
+      "return_rate_pct": 18.99,
+      "approval_rate_pct": 88.06
+    },
+    {
+      "category": "ELECTRONICS",
+      "units_sold": 12533,
+      "return_lines": 1321,
+      "units_requested": 1595,
+      "return_rate_pct": 12.73,
+      "approval_rate_pct": 87.86
+    },
+    {
+      "category": "HOME",
+      "units_sold": 11642,
+      "return_lines": 903,
+      "units_requested": 1097,
+      "return_rate_pct": 9.42,
+      "approval_rate_pct": 87.15
+    },
+    {
+      "category": "BEAUTY",
+      "units_sold": 7054,
+      "return_lines": 452,
+      "units_requested": 556,
+      "return_rate_pct": 7.88,
+      "approval_rate_pct": 64.97
+    },
+    {
+      "category": "GROCERY",
+      "units_sold": 6643,
+      "return_lines": 243,
+      "units_requested": 332,
+      "return_rate_pct": 5.0,
+      "approval_rate_pct": 26.97
+    },
+    {
+      "category": "TOYS",
+      "units_sold": 5421,
+      "return_lines": 424,
+      "units_requested": 515,
+      "return_rate_pct": 9.5,
+      "approval_rate_pct": 83.92
+    },
+    {
+      "category": "SPORTS",
+      "units_sold": 6220,
+      "return_lines": 566,
+      "units_requested": 701,
+      "return_rate_pct": 11.27,
+      "approval_rate_pct": 86.02
+    },
+    {
+      "category": "BOOKS",
+      "units_sold": 4607,
+      "return_lines": 293,
+      "units_requested": 345,
+      "return_rate_pct": 7.49,
+      "approval_rate_pct": 88.4
+    },
+    {
+      "category": "JEWELRY",
+      "units_sold": 1523,
+      "return_lines": 141,
+      "units_requested": 167,
+      "return_rate_pct": 10.97,
+      "approval_rate_pct": 82.14
+    },
+    {
+      "category": "GIFT_CARD",
+      "units_sold": 1149,
+      "return_lines": 52,
+      "units_requested": 54,
+      "return_rate_pct": 4.7,
+      "approval_rate_pct": 0.0
+    }
+  ],
+  "coverage": {
+    "partial_return_lines": 1088,
+    "over_requested_lines": 366,
+    "late_request_lines": 923,
+    "late_lines_with_manager_override": 192,
+    "boundary_day_equals_window_lines": 231,
+    "orders_with_multiple_rmas": 225,
+    "order_lines_on_multiple_rmas": 281,
+    "excluded_category_rejections": 205,
+    "final_sale_rejections": 285,
+    "hygiene_rejections": 110,
+    "qty_capped_lines": 88,
+    "split_shipment_rmas": 223,
+    "missing_shipments_label_expired": 138,
+    "lost_in_transit": 59,
+    "short_shipped_inspections": 52,
+    "damaged_goods_inspections": 856,
+    "damaged_by_customer": 335,
+    "damaged_by_carrier": 521,
+    "defective_inspections": 790,
+    "not_original_item_inspections": 98,
+    "exchanges_completed": 967,
+    "exchange_requests_fallback_to_refund": 120,
+    "store_credit_refunds": 248,
+    "duplicate_refund_attempts_blocked": 127,
+    "closed_no_refund": 47
+  },
+  "money": {
+    "gross_order_value_usd": 8247459.19,
+    "refunds_paid_count": 3115,
+    "refunds_paid_usd": 584557.39,
+    "refunds_as_pct_of_order_value": 7.09,
+    "avg_refund_usd": 187.66,
+    "restocking_fees_usd": 14478.75,
+    "damage_deductions_usd": 20558.11,
+    "return_label_fees_usd": 10687.71,
+    "shipping_refunded_usd": 826.62,
+    "refund_recovery_ratio_pct": 93.96
+  },
+  "cycle_times": {
+    "request_to_decision_hours_p50": 18.35,
+    "request_to_decision_hours_p90": 33.3,
+    "received_to_inspected_hours_p50": 36.92,
+    "request_to_refund_days_p50": 14.2,
+    "request_to_refund_days_p90": 20.54
+  },
+  "inspection_conditions": {
+    "OPENED_LIKE_NEW": 1844,
+    "DEFECTIVE": 790,
+    "UNOPENED": 2614,
+    "DAMAGED": 856,
+    "NOT_ORIGINAL_ITEM": 98
+  },
+  "disposition": {
+    "by_disposition": {
+      "RESTOCK": {
+        "units": 5325,
+        "cost_value_usd": 234603.94
+      },
+      "REFURBISH": {
+        "units": 718,
+        "cost_value_usd": 150607.64
+      },
+      "QUARANTINE": {
+        "units": 656,
+        "cost_value_usd": 86110.06
+      },
+      "SCRAP": {
+        "units": 1235,
+        "cost_value_usd": 23840.39
+      }
+    },
+    "inventory_recovery_rate_pct": 65.63
+  },
+  "pipeline": {
+    "rma_status": {
+      "REFUNDED": 3075,
+      "EXCHANGED": 967,
+      "REJECTED": 538,
+      "EXPIRED": 138,
+      "CLOSED_NO_REFUND": 47,
+      "LOST_IN_TRANSIT": 59,
+      "IN_TRANSIT": 53,
+      "INSPECTED": 24,
+      "RECEIVED": 19,
+      "AUTHORIZED": 61,
+      "PARTIALLY_AUTHORIZED": 11,
+      "SUBMITTED": 8
+    },
+    "shipment_status": {
+      "RECEIVED": 4350,
+      "EXPIRED": 138,
+      "LOST": 59,
+      "IN_TRANSIT": 53,
+      "LABEL_CREATED": 76
+    }
+  }
+}
