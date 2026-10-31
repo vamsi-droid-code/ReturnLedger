@@ -40,6 +40,9 @@
   refund arithmetic in the README example was checked by hand: $22.99 + $1.38 = $24.37 and
   $23.99 + $1.44 = $25.43, for a total of $49.80.
 - **Report checked visually** in a browser (screenshot in `docs/images/report_top.png`).
+- **Submission checks**: before publishing, the tracked files were scanned for secrets, credentials, local paths
+  and personal data (none found), and every number in [VERIFICATION.md](VERIFICATION.md) was re-measured from a
+  fresh run rather than copied from earlier notes. The run time in the README was corrected (about 60 s, not 30 s).
 - **Web UI checked page by page** in a browser. This caught wording bugs in the generated RMA summaries
   ("asked to store credit", "1 days") and IDs wrapping badly in narrow windows. All were fixed before commit.
 

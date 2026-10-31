@@ -79,3 +79,29 @@ reports) and offered a small read-only explorer to make the results easier to fo
 ## Prompt 4 (2026-10-31)
 
 > okay create a simple frontend to understand clearly
+
+## Prompt 5 (2026-10-31 00:36 IST)
+
+> Error Code: -102
+> URL: http://127.0.0.1:8000/
+
+The browser was opened before the server was started. The assistant started `python -m returnledger serve` and
+explained that the server must be running while the page is open. No code change was needed.
+
+## Prompt 6 (2026-10-31 16:51 IST)
+
+> Provide
+> clear setup/run instructions and demonstrate how you verified
+> the core functionality. Document environment needs and
+> limitations.
+>
+> Include your code, prompt history, and relevant supporting
+> artifacts in a clearly identifiable directory. There is no fixed list of
+> documents or prescribed format
+>
+> Never include secrets, credentials, personal or sensitive
+> information, or proprietary code you are not authorized to
+> publish. Use safe sample data and local configuration; explain
+> setup in the README
+>
+> ok this are some additional points Make this chnages without disturbing the project

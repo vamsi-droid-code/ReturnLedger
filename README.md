@@ -10,6 +10,25 @@ back to the exact order line, policy version and inspection that justified it.
 
 ![Report screenshot](docs/images/report_top.png)
 
+## Submission contents
+
+Everything for review is in this repository. Start here, then follow the links.
+
+| What | Where |
+| --- | --- |
+| Setup and run instructions | [Setup and run](#setup-and-run) (below) |
+| How the core functionality was verified | [docs/VERIFICATION.md](docs/VERIFICATION.md), summarised in [How it was verified](#how-it-was-verified) |
+| Source code | [`returnledger/`](returnledger) (Python package and web UI), [`tests/`](tests) |
+| Prompt history (every prompt given to the AI) | [prompts/PROMPT_HISTORY.md](prompts/PROMPT_HISTORY.md) |
+| AI usage disclosure | [docs/AI_USAGE.md](docs/AI_USAGE.md) |
+| Design decisions and business rules | [docs/DESIGN.md](docs/DESIGN.md) |
+| Data dictionary and SQL schema | [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md), [docs/schema.sql](docs/schema.sql) |
+| Generated datasets (synthetic) | [`data/starter/`](data/starter) (all formats), [`data/full/`](data/full) (CSV, ground truth, reports) |
+| Ground truth (answer key, kept apart from inputs) | `data/<scale>/ground_truth/` |
+| Validation, evaluation, reproducibility and robustness reports | `data/<scale>/reports/` |
+| Screenshots | [`docs/images/`](docs/images) |
+| Environment needs, limitations, security notes | [Environment](#environment), [Limitations](#limitations-and-next-steps), [Security, privacy and configuration](#security-privacy-and-configuration) |
+
 ## What this project does
 
 1. **Generates a realistic synthetic retail dataset** from one fixed seed (`20261022`): 12,000 customers,
@@ -58,17 +77,43 @@ Full details: [`data/full/reports/validation_summary.md`](data/full/reports/vali
 [`reproducibility.md`](data/full/reports/reproducibility.md), [`robustness.md`](data/full/reports/robustness.md),
 and `report.html` (open it in a browser).
 
-## Run it (VS Code)
+## Setup and run
 
-Requirements: **Python 3.10+** only, using just the standard library (nothing to `pip install`).
+### Environment
 
-1. `git clone https://github.com/vamsi-droid-code/ReturnLedger.git` and open the folder in VS Code
-   (**File > Open Folder**).
+| Need | Details |
+| --- | --- |
+| Python | **3.10 or newer** (tested with 3.13). Check with `python --version`; on macOS/Linux it may be `python3`. |
+| Packages | None. Only the standard library is used, so there is nothing to `pip install` and no virtual environment is needed. `requirements.txt` only contains a comment saying so. |
+| Operating system | Windows, macOS or Linux. Developed and verified on Windows 11. |
+| Disk | About 60 MB for the clone. The full run writes about 165 MB more (JSON, SQL and SQLite exports, which are git-ignored). |
+| Memory | The full-scale run peaked at about 500 MB, so allow 1 GB free. The starter scale needs very little. |
+| Network | Only for `git clone`. Generation, tests and the web UI run fully offline. |
+| Ports | The web UI uses `127.0.0.1:8000` by default (change with `--port`). |
+| Configuration | None. No accounts, API keys, environment variables or `.env` file. All parameters (seed, volumes, policies) are in `returnledger/config.py`. |
+| Optional | VS Code with the Python extension, for the one-click run configurations below. |
+
+### Quick start (any terminal)
+
+```bash
+git clone https://github.com/vamsi-droid-code/ReturnLedger.git
+cd ReturnLedger
+python -m unittest discover -s tests          # 32 tests, about 3 s
+python -m returnledger run --scale starter    # small dataset end to end, a few seconds
+python -m returnledger serve --scale full     # open http://127.0.0.1:8000 (Ctrl+C to stop)
+```
+
+The committed data and reports are already in the repository, so `serve` works straight after cloning. Running
+`run` regenerates them, and the result is byte-identical to what is committed.
+
+### In VS Code
+
+1. Clone the repository and open the folder in VS Code (**File > Open Folder**).
 2. Install the recommended **Python** extension when prompted.
 3. Open **Run and Debug** (Ctrl+Shift+D), choose a configuration and press **F5**:
    - `0. Web UI - full dataset`: opens the explorer in your browser (see [Web UI](#web-ui) below)
-   - `1. Run pipeline - starter`: generates 3,000 orders, then validates, audits and reports (about 5 s)
-   - `2. Run pipeline - full`: the full 30,000 order dataset (about 30 s)
+   - `1. Run pipeline - starter`: generates 3,000 orders, then validates, audits and reports (a few seconds)
+   - `2. Run pipeline - full`: the full 30,000 order dataset (about 30-60 s)
    - `3. Reproducibility check`
    - `4. Explain one RMA end to end`: prompts for an RMA id and prints its whole trace
    - `5. Run tests`
@@ -129,6 +174,22 @@ RMA-2026-000043  status=REFUNDED  resolution=STORE_CREDIT  channel=APP
   audit findings:
     [HIGH] DUPLICATE_REFUND REF-2026-003225: second payout 49.80 after REF-2026-000039
 ```
+
+## How it was verified
+
+Each check runs the code and compares its output with something independent. Full commands, outputs and
+caveats are in [docs/VERIFICATION.md](docs/VERIFICATION.md).
+
+| Check | Command | Result |
+| --- | --- | --- |
+| Rules, pipeline and web UI tests | `python -m unittest discover -s tests -v` | 32 tests pass |
+| Validation (19 checks) | `python -m returnledger run --scale full` | PASS, 0 unlabelled violations |
+| Audit vs separate answer key | same run | 200/200 planted mistakes found, 0 false alarms |
+| Recorded decisions vs policy | same run | 100% of clean lines match |
+| Reproducibility | `python -m returnledger reproduce --scale full` | 39 files byte-identical across two runs |
+| Committed data is genuine output | `run` both scales, then `git status` | no changes |
+| Robustness | `python -m returnledger robustness --scale full` | 5 seeds, clean and with anomalies, 0 unlabelled violations |
+| Manual | `explain --rma RMA-2026-000043`, web UI, HTML report | refund maths checked by hand; pages checked visually |
 
 ## Workflow
 
@@ -193,7 +254,7 @@ returnledger/            Python package (standard library only)
 tests/                   unit tests (rules) + end-to-end pipeline tests
 data/starter/            3k-order dataset: csv/, json/, sql/, ground_truth/, reports/, manifest.json
 data/full/               30k-order dataset: csv/, ground_truth/, reports/, manifest.json
-docs/                    DATA_DICTIONARY.md, DESIGN.md, schema.sql, AI_USAGE.md
+docs/                    DATA_DICTIONARY.md, DESIGN.md, VERIFICATION.md, schema.sql, AI_USAGE.md, images/
 prompts/PROMPT_HISTORY.md  every prompt given to the AI tool
 ```
 
@@ -207,6 +268,20 @@ No external data is used. Every record comes from the seeded generator. Customer
 combinations of common first and last names, emails use the reserved `example.com` domain, and tax rates are
 illustrative. See `provenance` in each `manifest.json`. Code and data are released under the MIT License.
 
+## Security, privacy and configuration
+
+- **No secrets or credentials.** The project needs no accounts, API keys, tokens or passwords, and the repository
+  contains none. There is no `.env` file because there is nothing to configure outside the code.
+- **No personal or real data.** Every customer, order and refund is synthetic, emails are
+  `userNNNNNN@example.com` (a reserved domain), and no real person, company or payment data is included.
+- **Local configuration only.** Parameters live in `returnledger/config.py` and are passed on the command line
+  (`--scale`, `--seed`, `--port`).
+- **Local-only web UI.** The server binds to `127.0.0.1`, so it can't be reached from other machines. It is
+  read-only, serves only its own `web/` folder and the API (other paths return 404), and has no login because it
+  holds nothing private.
+- **No proprietary code.** All code was written for this project and is MIT-licensed. There are no third-party
+  dependencies.
+
 ## Limitations and next steps
 
 - The audit uses the same policy functions as the generator, so 100% precision and recall shows that the data
@@ -217,8 +292,14 @@ illustrative. See `provenance` in each `manifest.json`. Code and data are releas
   multi-jurisdiction tax rules.
 - Ground truth labels each anomaly at its primary entity. Secondary effects (for example, phantom inventory
   from an over-approved quantity) are documented but not labelled separately.
-- Next steps: a REST API or small UI over the SQLite database, policy versions managed as data instead of
-  config, and fraud signals such as serial returners or empty-box rates.
+- The web UI is a local, read-only viewer for one person. It has no login, no editing, and no multi-user or
+  production deployment. It loads the whole dataset into memory at start-up (a few seconds at full scale).
+- Environment: verified on Windows 11 with Python 3.13. Linux and macOS should give identical results (standard
+  library only, LF line endings forced), but weren't tested directly. Python below 3.10 isn't supported.
+- `data/full/json`, `data/full/sql` and the SQLite files aren't committed because of their size (about 165 MB).
+  Run the full pipeline to create them.
+- Next steps: write operations through an API over the SQLite database, policy versions managed as data instead
+  of config, and fraud signals such as serial returners or empty-box rates.
 
 ## AI usage
 
