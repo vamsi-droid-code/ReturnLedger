@@ -105,3 +105,42 @@ explained that the server must be running while the page is open. No code change
 > setup in the README
 >
 > ok this are some additional points Make this chnages without disturbing the project
+
+## Prompt 7 (2026-10-31 16:59 IST)
+
+> okay now explain me what is the problem statement what have we done and final output of the project and core functionality and logic of the project and what is the teech stack and all
+
+## Prompt 8 (2026-10-31 17:00 IST)
+
+> i need in easy and simple english
+
+## Prompt 9 (2026-10-31 17:02 IST)
+
+> i don't want to show the cursoe agent here
+
+(Attached: a screenshot of the GitHub commit header showing "Vamsi Mattaparthi and cursoragent". The assistant
+removed the automatic `Co-authored-by: Cursor` line from the commit messages. No files changed.)
+
+## Prompt 10 (2026-10-31 17:04 IST)
+
+> that's okay
+
+## Prompt 11 (2026-10-31 17:04 IST)
+
+> so u didn't make any chnages now right ?
+
+## Prompt 12 (2026-10-31 17:06 IST)
+
+> removing cursor agent , means done any project functionality ?
+
+## Prompt 13 (2026-10-31 17:06 IST)
+
+> okay run the project
+
+## Prompt 14 (2026-11-01 12:11 IST)
+
+> YottaFlex AI Candidate Project Submission Guidelines.pdf YottaFlex AI Candidate Project-FAQ (1).pdf
+>
+> (local folder path removed from the two file names)
+>
+> okay everything in this are done ? I can submit the project link ?

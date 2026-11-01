@@ -4,6 +4,8 @@
 - **Cursor** (desktop IDE) with its AI agent, backed by an Anthropic Claude model. The agent could read and
   write files, run terminal commands and open a browser tab to view the generated report.
 - No other AI tools were used. The full list of prompts is in [../prompts/PROMPT_HISTORY.md](../prompts/PROMPT_HISTORY.md).
+- The agent made the git commits. Cursor automatically adds a `Co-authored-by: Cursor` line to such commits;
+  I removed it from the commit messages (no files changed) because this document is where AI use is disclosed.
 
 ## Where AI accelerated the work
 - **Translating the brief into a design**: entity list, the extra entities that were needed (authorization

@@ -209,7 +209,7 @@ Design choices:
 - **Shared rule code.** The audit and the generator share `policy.py`. That's deliberate (one definition of
   the rules), but it means the audit's 100% score shows consistency, not detection skill. Ground truth is
   designed so that a rule-blind detector can be benchmarked later.
-- **Pure Python, standard library only.** It's slower than pandas (about 30 s at full scale) but needs zero
+- **Pure Python, standard library only.** It's slower than pandas (about 30-60 s at full scale) but needs zero
   installation and keeps every calculation explicit and reviewable.
 - **Integer cents with half-up rounding** everywhere avoids floating-point drift. JSON uses decimal numbers
   for convenience; CSV is the canonical format.
@@ -218,3 +218,34 @@ Design choices:
   orders always $0 like-for-like.
 - **Timestamps** are naive local times (no time zone). The as-of cut-off keeps all events at or before
   2026-10-25 23:59:59.
+
+## 9. Assumptions and deviations from the brief
+
+Where the brief was open or ambiguous, I made these choices. Each one can be changed in
+`returnledger/config.py` or the module named.
+
+### Assumptions
+
+| Topic | Assumption |
+|---|---|
+| Policy values | Return windows, restocking fees, label fee and distribution shares are plausible retail defaults, not a real retailer's policy. |
+| Money | One currency (USD), stored as integer cents with half-up rounding. State tax rates are illustrative. |
+| Return window | Counted from the *delivery* date. The policy version is chosen by the *order* date. Loyalty tiers add days (GOLD +15, PLATINUM +30). |
+| Merchant fault | A customer's claim (defective, wrong item, damaged in transit) only removes fees if the inspection confirms it. |
+| Late override | Recorded by an operations manager on the request. It can waive the window but never an exclusion. |
+| "Missing shipment" | Covered three ways: labels never used (the return expires after 14 days), parcels lost in transit, and parcels that arrive with fewer units than approved. |
+| "Duplicate refund attempts" | Normal payment-gateway retries are blocked by the idempotency key and recorded with $0 paid. The *anomaly* is a second payout that got through. |
+| Exchanges | Like-for-like at $0. If the inspection fails, the exchange falls back to a refund. |
+| Current date | Data is cut off at 2026-10-25, so some returns are still in progress, as in a live system. |
+
+### Deviations and interpretations
+
+| Brief says | What I did | Why |
+|---|---|---|
+| 30,000 orders | 30,000 sales orders. `orders.csv` has 30,967 rows because the 967 exchange replacements are also orders (`order_type = EXCHANGE`). | An exchange ships goods, so it is modelled as an order. Validation counts sales orders only. |
+| `RMAL-<rma-id>-01` | Taken literally: `RMAL-RMA-2026-000001-01`. | Keeps the full RMA id inside the line id, as the pattern shows. |
+| 10 core entities | Kept all 10, and added `product`, `return_policy`, `authorization_line`, `shipment_line`, `refund_line`, `inventory_movement` and `status_event`. | The rules need them (see section 2). |
+| `ReturnAuthorization` as one entity | Split into a header plus per-line decisions. | Decisions differ per line. |
+| IDs for entities not in the brief | Chose formats such as `RA-`, `INS-`, `DISP-` and `EVT-` (section 3). | Same zero-padded style as the given formats. |
+| `ground_truth.csv/json` | `ground_truth/ground_truth_anomalies.csv` and `.json`, plus `ground_truth_labels.csv` with the expected decision per line. | Separates "what was planted" from "what the rules expect", and keeps both out of the input tables. |
+| Optional external data | None used. Everything is synthetic. | No licensing or personal-data risk. |

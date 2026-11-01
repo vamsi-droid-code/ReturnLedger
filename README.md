@@ -22,6 +22,7 @@ Everything for review is in this repository. Start here, then follow the links.
 | Prompt history (every prompt given to the AI) | [prompts/PROMPT_HISTORY.md](prompts/PROMPT_HISTORY.md) |
 | AI usage disclosure | [docs/AI_USAGE.md](docs/AI_USAGE.md) |
 | Design decisions and business rules | [docs/DESIGN.md](docs/DESIGN.md) |
+| Assumptions and deviations from the brief | [docs/DESIGN.md, section 9](docs/DESIGN.md#9-assumptions-and-deviations-from-the-brief) |
 | Data dictionary and SQL schema | [docs/DATA_DICTIONARY.md](docs/DATA_DICTIONARY.md), [docs/schema.sql](docs/schema.sql) |
 | Generated datasets (synthetic) | [`data/starter/`](data/starter) (all formats), [`data/full/`](data/full) (CSV, ground truth, reports) |
 | Ground truth (answer key, kept apart from inputs) | `data/<scale>/ground_truth/` |
